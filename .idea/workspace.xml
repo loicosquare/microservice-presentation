@@ -46,7 +46,7 @@
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/UserService/src/main/resources",
+    "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/HotelService/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +60,7 @@
       <recent name="com.tech.user.service.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lfonkouo\OneDrive - Capgemini\Documents\Loic Sanou\Techs\micro_services\HotelService\src\main\resources" />
       <recent name="C:\Users\lfonkouo\OneDrive - Capgemini\Documents\Loic Sanou\Techs\micro_services\UserService\src\main\resources" />
     </key>
   </component>
@@ -67,6 +68,13 @@
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ApiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gatway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HotelService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tech.hotel.service.HotelService.HotelServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702203361499</updated>
       <workItem from="1702203364212" duration="1471000" />
-      <workItem from="1702206038861" duration="8913000" />
+      <workItem from="1702206038861" duration="10307000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Methods and dependances injections.">
       <option name="closed" value="true" />
