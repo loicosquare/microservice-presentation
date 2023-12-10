@@ -21,12 +21,12 @@ public class QuestionController {
 
     @GetMapping
     public List<Question> getAll() {
-        return questionService.get();
+        return questionService.getAllQuestions();
     }
 
     @GetMapping("/{questionId}")
     public Question getAll(@PathVariable Long questionId) {
-        return questionService.getOne(questionId);
+        return questionService.getOneQuestion(questionId);
     }
 
     @GetMapping("/quiz/{quizId}")
