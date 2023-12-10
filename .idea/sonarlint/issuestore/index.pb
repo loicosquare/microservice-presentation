@@ -19,3 +19,5 @@ x
 HUserService/src/main/java/com/tech/user/service/payload/ApiResponse.java,c\f\cfb6ea3746945bda51d3162a2f5d46f18cd10e93
 ~
 NUserService/src/main/java/com/tech/user/service/controller/UserController.java,b\0\b06ab047b93c3e3334233eed0a093ac9b3745a64
+t
+DUserService/src/main/java/com/tech/user/service/entities/Rating.java,3\8\38387fbf1335bb06ef5ed84057e2e0b9332ee715

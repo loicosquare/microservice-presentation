@@ -3,6 +3,9 @@ package com.tech.user.service.entities;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -20,14 +23,11 @@ public class User {
     private String name;
 
     @Column(name = "EMAIL")
-
     private String email;
+
     @Column(name = "ABOUT")
     private String about;
-    //other user properties that you want
 
-    /*@Transient
-    private List<Rating> ratings=new ArrayList<>();*/
-
-
+    @Transient //not to be stored in db
+    private List<Rating> ratings=new ArrayList<>();
 }

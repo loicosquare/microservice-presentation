@@ -56,6 +56,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tech.user.service.entities" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lfonkouo\OneDrive - Capgemini\Documents\Loic Sanou\Techs\micro_services\UserService\src\main\resources" />
     </key>
@@ -106,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702203361499</updated>
       <workItem from="1702203364212" duration="1471000" />
-      <workItem from="1702206038861" duration="8670000" />
+      <workItem from="1702206038861" duration="8913000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Methods and dependances injections.">
       <option name="closed" value="true" />
