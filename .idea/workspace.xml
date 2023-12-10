@@ -42,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.HotelServiceApplication.executor": "Run",
     "Spring Boot.QuizServiceApplication.executor": "Run",
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "git-widget-placeholder": "master",
@@ -64,7 +65,7 @@
       <recent name="C:\Users\lfonkouo\OneDrive - Capgemini\Documents\Loic Sanou\Techs\micro_services\UserService\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.QuizServiceApplication">
+  <component name="RunManager" selected="Spring Boot.HotelServiceApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ApiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gatway.ApiGatewayApplication" />
@@ -117,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702203361499</updated>
       <workItem from="1702203364212" duration="1471000" />
-      <workItem from="1702206038861" duration="10307000" />
+      <workItem from="1702206038861" duration="10679000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Methods and dependances injections.">
       <option name="closed" value="true" />

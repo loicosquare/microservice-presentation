@@ -39,3 +39,5 @@ gHotelService/src/main/java/com/tech/hotel/service/HotelService/exception/Resour
 ^HotelService/src/main/java/com/tech/hotel/service/HotelService/controller/HotelController.java,d\c\dc0a8a56f1d237640191cf337a1dce36be0a6c6c
 ”
 dHotelService/src/main/java/com/tech/hotel/service/HotelService/exception/GlobalExceptionHandler.java,2\c\2ce869172d5126f3ee9a1f31f460300ce9efb139
+‹
+[HotelService/src/main/java/com/tech/hotel/service/HotelService/HotelServiceApplication.java,c\5\c509441d42f20a17984b19e2ece73cd2c99dd2d3
