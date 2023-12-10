@@ -41,3 +41,17 @@ gHotelService/src/main/java/com/tech/hotel/service/HotelService/exception/Resour
 dHotelService/src/main/java/com/tech/hotel/service/HotelService/exception/GlobalExceptionHandler.java,2\c\2ce869172d5126f3ee9a1f31f460300ce9efb139
 ã
 [HotelService/src/main/java/com/tech/hotel/service/HotelService/HotelServiceApplication.java,c\5\c509441d42f20a17984b19e2ece73cd2c99dd2d3
+Ü
+VRatingService/src/main/java/com/tech/rating/service/RatingService/entities/Rating.java,d\b\db2e3d8b2459d2df8e522a37615eba5c665b2c5a
+í
+bRatingService/src/main/java/com/tech/rating/service/RatingService/repository/RatingRepository.java,e\2\e27d12d4f0cc71bb596424a32ab0ff54248db767
+ç
+]RatingService/src/main/java/com/tech/rating/service/RatingService/services/RatingService.java,5\e\5e3693ca8c604d31edc678037db86bd0c63473cb
+ñ
+fRatingService/src/main/java/com/tech/rating/service/RatingService/services/impl/RatingServiceImpl.java,3\6\3665aeb1a34e3eb684390f964ed72e2313a48e01
+í
+bRatingService/src/main/java/com/tech/rating/service/RatingService/controller/RatingController.java,d\6\d60bf5ce670230e370c465416cc4264571cd4306
+è
+_RatingService/src/main/java/com/tech/rating/service/RatingService/RatingServiceApplication.java,e\1\e1d2f0944673125a39de3b67652d9f82d513fe5a
+W
+'ServiceRegistry/ServiceRegistry/pom.xml,e\1\e12a370c96fb3ab36271eaed95ae3412cb249390

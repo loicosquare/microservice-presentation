@@ -11,5 +11,9 @@
       <user-name>root</user-name>
       <schema-mapping />
     </data-source>
+    <data-source name="rating-service@localhost" uuid="9a00e266-eb69-4f6b-9def-682751f1a6c9">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MONGO" exact-version="0" />
+      <schema-mapping />
+    </data-source>
   </component>
 </project>
