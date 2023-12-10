@@ -3,18 +3,16 @@ package com.question.QuestionService.services.impl;
 import com.question.QuestionService.entities.Question;
 import com.question.QuestionService.repositories.QuestionRepository;
 import com.question.QuestionService.services.QuestionService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@RequiredArgsConstructor
 public class QuestionServiceImpl implements QuestionService {
 
-    private QuestionRepository questionRepository;
-
-    public QuestionServiceImpl(QuestionRepository questionRepository) {
-        this.questionRepository = questionRepository;
-    }
+    private final QuestionRepository questionRepository;
 
     @Override
     public Question create(Question question) {
