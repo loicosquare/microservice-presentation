@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3fe975-745d-4447-83e4-1efbbd8d5a8a" name="Changes" comment="Refactor Methods and dependances injections.">
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/config/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/HotelServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/HotelServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/RatingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/RatingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ZLZXFFM30mUtAtihVJUJHa8QF2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -152,7 +158,7 @@
       <workItem from="1702203364212" duration="1471000" />
       <workItem from="1702206038861" duration="12970000" />
       <workItem from="1702306185117" duration="3638000" />
-      <workItem from="1702309894924" duration="1765000" />
+      <workItem from="1702309894924" duration="4343000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Methods and dependances injections.">
       <option name="closed" value="true" />

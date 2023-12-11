@@ -63,3 +63,15 @@ o
 ?src/main/java/com/tech/user/service/UserServiceApplication.java,3\7\37f1ade9c055349d3fdbe58b5b32c30bad6b29cc
 r
 Bsrc/main/java/com/tech/user/service/controller/UserController.java,2\3\2385dc5ee42fc4d3376161f9b87600d56e5e9f8c
+Å
+Qsrc/main/java/com/tech/rating/service/RatingService/RatingServiceApplication.java,5\9\5917c477f6579e4521e86c2c6186890602ed7eec
+v
+Fsrc/main/java/com/tech/user/service/services/impl/UserServiceImpl.java,b\e\be1cf3aa449865649d38013d374d6927e469fbab
+h
+8src/main/java/com/tech/user/service/config/MyConfig.java,4\3\43362b21c57e4b32067c2482082be59fb05177a1
+Ñ
+Tsrc/main/java/com/tech/rating/service/RatingService/controller/RatingController.java,e\6\e6b1ebcefe6cd03beda069f98729b3a4d44a7aed
+h
+8src/main/java/com/tech/user/service/entities/Rating.java,b\8\b8458c78df0cfac497ef11c8b4525d821c6011d6
+g
+7src/main/java/com/tech/user/service/entities/Hotel.java,b\5\b503736a84af42c63a17c444110eafd14849dd82
