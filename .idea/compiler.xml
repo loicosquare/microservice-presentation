@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HotelService" />
+        <module name="ServiceRegistry (1) (com.tech.service.ServiceRegistry)" />
         <module name="UserService" />
         <module name="QuizService" />
         <module name="ServiceRegistry" />
@@ -25,6 +26,7 @@
       <module name="QuizService" options="-parameters" />
       <module name="RatingService" options="-parameters" />
       <module name="ServiceRegistry" options="-parameters" />
+      <module name="ServiceRegistry (1) (com.tech.service.ServiceRegistry)" options="-parameters" />
       <module name="UserService" options="-parameters" />
     </option>
   </component>

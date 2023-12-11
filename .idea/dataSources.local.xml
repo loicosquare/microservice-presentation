@@ -15,5 +15,15 @@
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MONGO" exact-version="0" />
       <schema-mapping />
     </data-source>
+    <data-source name="quiz@localhost" uuid="e61110f2-105f-429a-8ff2-1242e1dd5c88">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="question@localhost" uuid="50d37a90-8956-4d1a-9afd-11fcabd0022b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>

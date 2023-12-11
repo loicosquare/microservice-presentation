@@ -13,8 +13,6 @@ RUserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.j
 YUserService/src/main/java/com/tech/user/service/exceptions/ResourceNotFoundException.java,9\e\9ecd4df0671360145c65abfa5ae56d59440b1861
 †
 VUserService/src/main/java/com/tech/user/service/exceptions/GlobalExceptionHandler.java,7\e\7e4e7d37eb3b7bff1b73f0aacc7f4f3dd97c4ba0
-l
-<UserService/src/main/java/com/tech/user/service/payload.java,b\4\b47ba6ab6328066fbd77dc87d664573f865cb741
 x
 HUserService/src/main/java/com/tech/user/service/payload/ApiResponse.java,c\f\cfb6ea3746945bda51d3162a2f5d46f18cd10e93
 ~
@@ -55,3 +53,13 @@ bRatingService/src/main/java/com/tech/rating/service/RatingService/controller/Ra
 _RatingService/src/main/java/com/tech/rating/service/RatingService/RatingServiceApplication.java,e\1\e1d2f0944673125a39de3b67652d9f82d513fe5a
 W
 'ServiceRegistry/ServiceRegistry/pom.xml,e\1\e12a370c96fb3ab36271eaed95ae3412cb249390
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+j
+:src/main/java/com/registry/ServiceRegistryApplication.java,9\1\91ae3880e1291243f684812bde16400cc624251b
+~
+Nsrc/main/java/com/tech/hotel/service/HotelService/HotelServiceApplication.java,4\e\4efe590139b2da9cd9d14f8cbfeb63ace8eec800
+o
+?src/main/java/com/tech/user/service/UserServiceApplication.java,3\7\37f1ade9c055349d3fdbe58b5b32c30bad6b29cc
+r
+Bsrc/main/java/com/tech/user/service/controller/UserController.java,2\3\2385dc5ee42fc4d3376161f9b87600d56e5e9f8c
