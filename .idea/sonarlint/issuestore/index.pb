@@ -75,3 +75,11 @@ h
 8src/main/java/com/tech/user/service/entities/Rating.java,b\8\b8458c78df0cfac497ef11c8b4525d821c6011d6
 g
 7src/main/java/com/tech/user/service/entities/Hotel.java,b\5\b503736a84af42c63a17c444110eafd14849dd82
+p
+@src/main/java/com/tech/user/service/entities/external/Hotel.java,e\4\e476d5e6b12d33e7145ca7b54c1cdd34697e7e4f
+q
+Asrc/main/java/com/tech/user/service/entities/external/Rating.java,d\5\d53bd8f9760e97492656714354b1f12ec8e9c5e6
+u
+Esrc/main/java/com/tech/hotel/service/HotelService/entities/Hotel.java,f\e\fedc3f2f6bb2941a2b2203ef3a24635bc81f8eda
+Å
+Qsrc/main/java/com/tech/hotel/service/HotelService/controller/HotelController.java,f\f\ff478fe82a59317235cf3a391030d83844c14506
