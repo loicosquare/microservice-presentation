@@ -19,7 +19,7 @@ public class RatingController {
     //create rating
     //@PreAuthorize("hasAuthority('Admin')")
     @PostMapping
-    public ResponseEntity<Rating> create(@RequestBody Rating rating) {
+    public ResponseEntity<Rating> createRating(@RequestBody Rating rating) {
         return ResponseEntity.status(HttpStatus.CREATED).body(ratingService.create(rating));
     }
 
