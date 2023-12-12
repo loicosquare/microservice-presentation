@@ -91,3 +91,5 @@ Gsrc/main/java/com/tech/user/service/external/services/HotelService.java,e\9\e9
 Lsrc/main/java/com/tech/hotel/service/HotelService/services/HotelService.java,a\0\a02794201a1a8ecf39550f45bf2b248bb1470a2f
 Å
 Qsrc/main/java/com/tech/hotel/service/HotelService/controller/StaffController.java,9\b\9b9fc6252f2172bcbb376eb9be416eadba8a8519
+~
+Nsrc/main/java/com/tech/config/server/ConfigServer/ConfigServerApplication.java,e\f\ef08c46625126e407007d05aead5290f30711dd6

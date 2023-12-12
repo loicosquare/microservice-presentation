@@ -12,6 +12,7 @@
         <module name="UserService" />
         <module name="QuizService" />
         <module name="ServiceRegistry" />
+        <module name="ConfigServer" />
         <module name="QuestionService" />
         <module name="RatingService" />
         <module name="ApiGateway" />
@@ -23,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApiGateway" options="-parameters" />
       <module name="ApiGateway (1) (com.tech.service.ApiGateway)" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
       <module name="HotelService" options="-parameters" />
       <module name="QuestionService" options="-parameters" />
       <module name="QuizService" options="-parameters" />

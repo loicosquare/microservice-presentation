@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/CloudGateway/ServiceRegistry/pom.xml" />
         <option value="$PROJECT_DIR$/RegistryService/ServiceRegistry/pom.xml" />
         <option value="$PROJECT_DIR$/CloudGateWay/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
