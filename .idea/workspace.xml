@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3fe975-745d-4447-83e4-1efbbd8d5a8a" name="Changes" comment="Refactor Methods and dependances injections.">
-      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
     "Spring Boot.RatingServiceApplication.executor": "Run",
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "ConfigServer",
+    "git-widget-placeholder": "config-client",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/ConfigServer/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -180,7 +179,7 @@
       <workItem from="1702203364212" duration="1471000" />
       <workItem from="1702206038861" duration="12970000" />
       <workItem from="1702306185117" duration="3638000" />
-      <workItem from="1702309894924" duration="16553000" />
+      <workItem from="1702309894924" duration="18533000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Methods and dependances injections.">
       <option name="closed" value="true" />

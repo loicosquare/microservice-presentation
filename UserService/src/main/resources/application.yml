@@ -16,3 +16,17 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+  config:
+    import: optional:configserver:http://localhost:8085
+#  profiles:
+#    active: dev
+
+#Etape 4 de notre fichier contenant le guide des étapes à suivre pour la mise en place de notre microservice
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultzone: http://localhost:8761/eureka
