@@ -15,12 +15,14 @@
         <module name="QuestionService" />
         <module name="RatingService" />
         <module name="ApiGateway" />
+        <module name="ApiGateway (1) (com.tech.service.ApiGateway)" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApiGateway" options="-parameters" />
+      <module name="ApiGateway (1) (com.tech.service.ApiGateway)" options="-parameters" />
       <module name="HotelService" options="-parameters" />
       <module name="QuestionService" options="-parameters" />
       <module name="QuizService" options="-parameters" />

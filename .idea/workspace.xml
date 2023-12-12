@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3fe975-745d-4447-83e4-1efbbd8d5a8a" name="Changes" comment="Refactor Methods and dependances injections.">
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/external/services/HotelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateWay/ApiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/controller/HotelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/controller/RatingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/external/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/externalEntities/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/external/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/externalEntities/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +64,9 @@
     "Spring Boot.RatingServiceApplication.executor": "Run",
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "Restemplate-hotel-rating-service",
+    "git-widget-placeholder": "ApiGateWay",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/RegistryService/ServiceRegistry",
+    "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/CloudGateWay/ApiGateway/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,6 +80,7 @@
       <recent name="com.tech.user.service.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lfonkouo\OneDrive - Capgemini\Documents\Loic Sanou\Techs\micro_services\CloudGateWay\ApiGateway\src\main\resources" />
       <recent name="C:\Users\lfonkouo\OneDrive - Capgemini\Documents\Loic Sanou\Techs\micro_services\CloudGateway\ServiceRegistry\src\main\resources" />
       <recent name="C:\Users\lfonkouo\OneDrive - Capgemini\Documents\Loic Sanou\Techs\micro_services\RatingService\src\main\resources" />
       <recent name="C:\Users\lfonkouo\OneDrive - Capgemini\Documents\Loic Sanou\Techs\micro_services\HotelService\src\main\resources" />
@@ -94,6 +88,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.HotelServiceApplication">
+    <configuration name="ApiGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ApiGateway (1) (com.tech.service.ApiGateway)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tech.service.ApiGateway.ApiGateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ApiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gatway.ApiGatewayApplication" />
@@ -162,7 +163,7 @@
       <workItem from="1702203364212" duration="1471000" />
       <workItem from="1702206038861" duration="12970000" />
       <workItem from="1702306185117" duration="3638000" />
-      <workItem from="1702309894924" duration="12950000" />
+      <workItem from="1702309894924" duration="15253000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Methods and dependances injections.">
       <option name="closed" value="true" />
