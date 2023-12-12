@@ -83,3 +83,9 @@ u
 Esrc/main/java/com/tech/hotel/service/HotelService/entities/Hotel.java,f\e\fedc3f2f6bb2941a2b2203ef3a24635bc81f8eda
 Å
 Qsrc/main/java/com/tech/hotel/service/HotelService/controller/HotelController.java,f\f\ff478fe82a59317235cf3a391030d83844c14506
+w
+Gsrc/main/java/com/tech/user/service/external/services/HotelService.java,e\9\e9b2fd63df079cad3b06fd0bb6e3aa4e270a7c30
+]
+-src/main/java/com/quiz/entities/Question.java,a\8\a8c2ced73ed44ffe0d3e9f19b7a37b120371ac54
+|
+Lsrc/main/java/com/tech/hotel/service/HotelService/services/HotelService.java,a\0\a02794201a1a8ecf39550f45bf2b248bb1470a2f

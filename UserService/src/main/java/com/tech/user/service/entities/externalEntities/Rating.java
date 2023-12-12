@@ -1,4 +1,4 @@
-package com.tech.user.service.entities.external;
+package com.tech.user.service.entities.externalEntities;
 
 import lombok.*;
 

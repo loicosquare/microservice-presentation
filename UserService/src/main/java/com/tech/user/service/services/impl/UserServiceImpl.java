@@ -1,9 +1,10 @@
 package com.tech.user.service.services.impl;
 
-import com.tech.user.service.entities.external.Hotel;
-import com.tech.user.service.entities.external.Rating;
+import com.tech.user.service.entities.externalEntities.Hotel;
+import com.tech.user.service.entities.externalEntities.Rating;
 import com.tech.user.service.entities.User;
 import com.tech.user.service.exceptions.ResourceNotFoundException;
+import com.tech.user.service.external.services.HotelService;
 import com.tech.user.service.repository.UserRepository;
 import com.tech.user.service.services.UserService;
 import lombok.RequiredArgsConstructor;
@@ -13,7 +14,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -24,6 +24,8 @@ public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
 
     private final RestTemplate restTemplate;
+
+    private final HotelService hotelService;
 
     private static final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
 
@@ -93,11 +95,12 @@ public class UserServiceImpl implements UserService {
             //api call to hotel service to get the hotel
             //http://localhost:8082/hotels/1cbaf36d-0b28-4173-b5ea-f1cb0bc0a791
 
-            ResponseEntity<Hotel> hotelEntity = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/"+rating.getHotelId(), Hotel.class);
-            Hotel hotel = hotelEntity.getBody();
-            //Hotel hotel = hotelService.getHotel(rating.getHotelId());
+            //ResponseEntity<Hotel> hotelEntity = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/"+rating.getHotelId(), Hotel.class);
+            //Hotel hotel = hotelEntity.getBody();
 
-            logger.info("response status code: {} ",hotelEntity.getStatusCode());
+            Hotel hotel = hotelService.getHotel(rating.getHotelId());
+
+            //logger.info("response status code: {} ",hotelEntity.getStatusCode());
 
             //set the hotel to rating
             rating.setHotel(hotel);

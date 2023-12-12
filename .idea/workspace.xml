@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3fe975-745d-4447-83e4-1efbbd8d5a8a" name="Changes" comment="Refactor Methods and dependances injections.">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be1cf3aa449865649d38013d374d6927e469fbab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be1cf3aa449865649d38013d374d6927e469fbab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/external/services/HotelService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/controller/HotelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/config/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/external/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/external/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/controller/RatingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/UserServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/external/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/externalEntities/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/external/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/externalEntities/Rating.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -69,7 +71,7 @@
     "Spring Boot.RatingServiceApplication.executor": "Run",
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "Restemplate-rating-service",
+    "git-widget-placeholder": "Restemplate-hotel-rating-service",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/RegistryService/ServiceRegistry",
     "node.js.detected.package.eslint": "true",
@@ -160,7 +162,7 @@
       <workItem from="1702203364212" duration="1471000" />
       <workItem from="1702206038861" duration="12970000" />
       <workItem from="1702306185117" duration="3638000" />
-      <workItem from="1702309894924" duration="10141000" />
+      <workItem from="1702309894924" duration="12950000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Methods and dependances injections.">
       <option name="closed" value="true" />
