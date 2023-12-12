@@ -10,15 +10,17 @@
         <module name="HotelService" />
         <module name="ServiceRegistry (1) (com.tech.service.ServiceRegistry)" />
         <module name="UserService" />
-        <module name="QuizService" />
-        <module name="ServiceRegistry" />
         <module name="ConfigServer" />
-        <module name="QuestionService" />
         <module name="RatingService" />
-        <module name="ApiGateway" />
         <module name="ApiGateway (1) (com.tech.service.ApiGateway)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ApiGateway" target="17" />
+      <module name="QuestionService" target="17" />
+      <module name="QuizService" target="17" />
+      <module name="ServiceRegistry" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

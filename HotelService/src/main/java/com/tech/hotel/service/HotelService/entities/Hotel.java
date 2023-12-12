@@ -1,9 +1,8 @@
 package com.tech.hotel.service.HotelService.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import lombok.*;
+
+import javax.persistence.*;
 
 @Getter
 @Setter
