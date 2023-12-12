@@ -93,3 +93,9 @@ Lsrc/main/java/com/tech/hotel/service/HotelService/services/HotelService.java,a
 Qsrc/main/java/com/tech/hotel/service/HotelService/controller/StaffController.java,9\b\9b9fc6252f2172bcbb376eb9be416eadba8a8519
 ~
 Nsrc/main/java/com/tech/config/server/ConfigServer/ConfigServerApplication.java,e\f\ef08c46625126e407007d05aead5290f30711dd6
+f
+6src/main/java/com/tech/user/service/entities/User.java,4\8\48d15e3f49712c5db8d537548170dfe1443510f0
+Ž
+^src/main/java/com/tech/service/ServiceRegistry/ServiceRegistry/ServiceRegistryApplication.java,5\7\5707502e08284c01843651819a8f57a9a63d2e59
+
+Osrc/main/java/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplication.java,e\3\e3f7bbff7742cfd55dc2821fb5b7140ec79df0c8
