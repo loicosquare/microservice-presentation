@@ -99,3 +99,11 @@ f
 ^src/main/java/com/tech/service/ServiceRegistry/ServiceRegistry/ServiceRegistryApplication.java,5\7\5707502e08284c01843651819a8f57a9a63d2e59
 
 Osrc/main/java/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplication.java,e\3\e3f7bbff7742cfd55dc2821fb5b7140ec79df0c8
+x
+Hsrc/main/java/com/tech/rating/service/RatingService/entities/Rating.java,9\f\9fff697411311cd092539979c94fcffe1e531563
+
+Osrc/main/java/com/tech/rating/service/RatingService/services/RatingService.java,9\f\9f28cfbdd9fbd9a1e293b72c9168fe7c0d3b2562
+ˆ
+Xsrc/main/java/com/tech/rating/service/RatingService/services/impl/RatingServiceImpl.java,1\3\13751e5c5383d15cef81f359bb276e5d6deedcb3
+m
+=src/main/java/com/tech/user/service/services/UserService.java,d\9\d9311230565d04c711e9bede0638cd214c489a62

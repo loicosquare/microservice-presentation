@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3fe975-745d-4447-83e4-1efbbd8d5a8a" name="Changes" comment="Refactor Methods and dependances injections.">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/2385dc5ee42fc4d3376161f9b87600d56e5e9f8c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/2385dc5ee42fc4d3376161f9b87600d56e5e9f8c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be1cf3aa449865649d38013d374d6927e469fbab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be1cf3aa449865649d38013d374d6927e469fbab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6b1ebcefe6cd03beda069f98729b3a4d44a7aed" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6b1ebcefe6cd03beda069f98729b3a4d44a7aed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff478fe82a59317235cf3a391030d83844c14506" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff478fe82a59317235cf3a391030d83844c14506" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CloudGateWay/ApiGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/entities/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/entities/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RegistryService/ServiceRegistry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/services/impl/RatingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/services/impl/RatingServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.UserServiceApplication.executor": "Run",
     "OverrideImplement.generate.javadoc": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -79,7 +75,7 @@
     "Spring Boot.ServiceRegistryApplication (1).executor": "Run",
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "config-client",
+    "git-widget-placeholder": "circuit-breaker",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/ConfigServer/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -90,6 +86,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tech.user.service.entities" />
@@ -102,7 +101,20 @@
       <recent name="C:\Users\lfonkouo\OneDrive - Capgemini\Documents\Loic Sanou\Techs\micro_services\HotelService\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RatingServiceApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+    <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tech.user.service.UserServiceApplication" />
+      <module name="UserService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tech.user.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ApiGateway (1) (com.tech.service.ApiGateway)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tech.service.ApiGateway.ApiGateway.ApiGatewayApplication" />
@@ -173,6 +185,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringProfilesService">
@@ -192,7 +209,7 @@
       <workItem from="1702203364212" duration="1471000" />
       <workItem from="1702206038861" duration="12970000" />
       <workItem from="1702306185117" duration="3638000" />
-      <workItem from="1702309894924" duration="23742000" />
+      <workItem from="1702309894924" duration="38265000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Methods and dependances injections.">
       <option name="closed" value="true" />
@@ -211,5 +228,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor Methods and dependances injections." />
     <option name="LAST_COMMIT_MESSAGE" value="Refactor Methods and dependances injections." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/controller/RatingController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

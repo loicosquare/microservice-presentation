@@ -10,6 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.UUID;
 
 @RequiredArgsConstructor
 @RestController
@@ -23,6 +24,12 @@ public class UserController {
     //create
     @PostMapping
     public ResponseEntity<User> createUser(@RequestBody User user) {
+//        User user1 = User.builder()
+//                .userId(UUID.randomUUID().toString())
+//                .name(user.getName())
+//                .email(user.getEmail())
+//                .about(user.getAbout())
+//                .build();
         User user1 = userService.saveUser(user);
         return ResponseEntity.status(HttpStatus.CREATED).body(user1);
     }
@@ -51,6 +58,10 @@ public class UserController {
     @GetMapping
     public ResponseEntity<List<User>> getAllUser() {
         List<User> allUser = userService.getAllUser();
-        return ResponseEntity.ok(allUser);
+        if (allUser != null && !allUser.isEmpty()){
+            return ResponseEntity.status(HttpStatus.OK).body(allUser);
+        }else{
+            return ResponseEntity.noContent().build();
+        }
     }
 }
