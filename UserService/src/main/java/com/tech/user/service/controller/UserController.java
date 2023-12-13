@@ -2,6 +2,7 @@ package com.tech.user.service.controller;
 
 import com.tech.user.service.entities.User;
 import com.tech.user.service.services.UserService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,6 +37,7 @@ public class UserController {
 
     //single user get
     @GetMapping("/{userId}")
+    @CircuitBreaker(name = "ratingHotelCircuitBreaker", fallbackMethod = "ratingHotelFallback")
     public ResponseEntity<User> getSingleUser(@PathVariable String userId) {
         logger.info("Get Single User Handler: UserController");
 //        logger.info("Retry count: {}", retryCount);
@@ -45,7 +47,7 @@ public class UserController {
     }
 
 
-    public ResponseEntity<User> ratingHotelFallback(String userId, Exception ex) {
+    public ResponseEntity<User> ratingHotelFallback(String userId, Exception ex) { //The retrun type of the fallback Method should be the same as the method that returns the user object.
 //        logger.info("Fallback is executed because service is down : ", ex.getMessage());
         ex.printStackTrace();
 
