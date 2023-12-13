@@ -28,7 +28,7 @@ public class RatingServiceImpl implements RatingService {
      */
     @Override
     public List<Rating> getRatings() {
-        return null;
+        return ratingRepository.findAll().stream().toList();
     }
 
     /**

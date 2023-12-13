@@ -53,13 +53,13 @@ public class UserServiceImpl implements UserService {
                 List<Rating> ratingList = Arrays.asList(ratingsOfUser);
 
                 ratingList.forEach(rating -> {
-                    ResponseEntity<Hotel> hotelEntity = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/" + rating.getRatingId(), Hotel.class);
+                    ResponseEntity<Hotel> hotelEntity = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/" + rating.getHotelId(), Hotel.class);
 
                     if (hotelEntity.getStatusCode().is2xxSuccessful()) {
                         Hotel hotel = hotelEntity.getBody();
                         rating.setHotel(hotel);
                     } else {
-                        logger.warn("Hôtel non trouvé pour le rating {0}" + rating.getRatingId());
+                        logger.warn("Hôtel non trouvé pour le rating {}", rating.getRatingId());
                     }
                 });
 
