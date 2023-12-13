@@ -59,7 +59,7 @@ public class UserServiceImpl implements UserService {
                         Hotel hotel = hotelEntity.getBody();
                         rating.setHotel(hotel);
                     } else {
-                        logger.warn("Hôtel non trouvé pour le rating {0}" + rating.getRatingId());
+                        logger.warn("Hôtel non trouvé pour le rating {}", rating.getRatingId());
                     }
                 });
 
