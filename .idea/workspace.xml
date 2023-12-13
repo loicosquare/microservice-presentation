@@ -77,7 +77,7 @@
     "Spring Boot.ServiceRegistryApplication (1).executor": "Run",
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "circuit-breaker",
+    "git-widget-placeholder": "retry",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/ConfigServer/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -211,7 +211,7 @@
       <workItem from="1702203364212" duration="1471000" />
       <workItem from="1702206038861" duration="12970000" />
       <workItem from="1702306185117" duration="3638000" />
-      <workItem from="1702309894924" duration="41944000" />
+      <workItem from="1702309894924" duration="42396000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Methods and dependances injections.">
       <option name="closed" value="true" />
