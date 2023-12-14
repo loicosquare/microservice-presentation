@@ -5,7 +5,7 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/hotel-service
-    username: root
+    username: postgres
     password: root
   jpa:
     hibernate:
@@ -13,13 +13,16 @@ spring:
     show-sql: true
   application:
     name: HOTEL-SERVICE
+  config:
+    import: optional:configserver:http://localhost:8085
+
 
 #Etape 4 de notre fichier contenant le guide des étapes à suivre pour la mise en place de notre microservice
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultzone: http://localhost:8761/eureka
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultzone: http://localhost:8761/eureka

@@ -1,4 +1,4 @@
-package com.tech.user.service.entities;
+package com.tech.user.service.entities.externalEntities;
 
 import lombok.*;
 
@@ -13,5 +13,5 @@ public class Rating {
     private String hotelId;
     private  int rating;
     private  String feedback;
-    //private Hotel hotel;
+    private Hotel hotel;
 }

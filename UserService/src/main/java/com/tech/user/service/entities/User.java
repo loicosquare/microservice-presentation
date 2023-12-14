@@ -1,8 +1,10 @@
 package com.tech.user.service.entities;
 
-import jakarta.persistence.*;
+import com.tech.user.service.entities.externalEntities.Rating;
 import lombok.*;
 
+import javax.persistence.Entity;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
