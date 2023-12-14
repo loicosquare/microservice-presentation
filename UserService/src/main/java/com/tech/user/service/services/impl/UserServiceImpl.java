@@ -86,7 +86,7 @@ public class UserServiceImpl implements UserService {
         /*
         *API Call to hotel Service to get the hotel
         * set the hotel to the rating
-        * return the rating
+        * return the rating.
         */
         // http://localhost:8082/hotels/id/
         logger.info("{} ", ratingsOfUser);
