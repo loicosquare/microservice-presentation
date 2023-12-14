@@ -2,6 +2,8 @@ package com.tech.user.service.controller;
 
 import com.tech.user.service.entities.User;
 import com.tech.user.service.services.UserService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.retry.annotation.Retry;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +20,7 @@ import java.util.UUID;
 public class UserController {
 
     private final UserService userService;
+    int retryCount = 0;
 
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
@@ -36,16 +39,20 @@ public class UserController {
 
     //single user get
     @GetMapping("/{userId}")
+    //@CircuitBreaker(name = "ratingHotelCircuitBreaker", fallbackMethod = "ratingHotelFallback")
+    @Retry(name = "ratingHotelService", fallbackMethod = "ratingHotelFallback")
     public ResponseEntity<User> getSingleUser(@PathVariable String userId) {
+
         logger.info("Get Single User Handler: UserController");
-//        logger.info("Retry count: {}", retryCount);
+        logger.info("Retry count: {}", retryCount);
+        retryCount++;
 
         User user = userService.getUser(userId);
         return ResponseEntity.ok(user);
     }
 
 
-    public ResponseEntity<User> ratingHotelFallback(String userId, Exception ex) {
+    public ResponseEntity<User> ratingHotelFallback(String userId, Exception ex) { //The retrun type of the fallback Method should be the same as the method that returns the user object.
 //        logger.info("Fallback is executed because service is down : ", ex.getMessage());
         ex.printStackTrace();
 

@@ -1,10 +1,0 @@
-
-b
-java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(Ú“Ç¾üÿÿÿÿ8Ò†ä¦Æ1
-]	java:S125 "<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ8ë¼ò§Æ1
-]	java:S125)"<This block of commented-out lines of code should be removed.(ØŠòùûÿÿÿÿ8×†ä¦Æ1
-J
-java:S11720"-Remove this unused method parameter "userId".(‰™™Ó8Ø†ä¦Æ1
-]	java:S1251"<This block of commented-out lines of code should be removed.(œÈ€þÿÿÿÿ8Ø†ä¦Æ1
-M
-java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8ß¢ó§Æ1
