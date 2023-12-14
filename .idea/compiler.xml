@@ -9,14 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HotelService" />
         <module name="ServiceRegistry (1) (com.tech.service.ServiceRegistry)" />
-        <module name="UserService" />
         <module name="ConfigServer" />
+        <module name="UserService" />
         <module name="RatingService" />
-        <module name="ApiGateway (1) (com.tech.service.ApiGateway)" />
+        <module name="ApiGateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ApiGateway" target="17" />
+      <module name="ApiGateway (1) (com.tech.service.ApiGateway)" target="17" />
       <module name="QuestionService" target="17" />
       <module name="QuizService" target="17" />
       <module name="ServiceRegistry" target="17" />
