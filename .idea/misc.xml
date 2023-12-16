@@ -4,33 +4,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/ApiGateway/ApiGateway/pom.xml" />
-        <option value="$PROJECT_DIR$/QuizService/QuizService/pom.xml" />
+        <option value="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/pom.xml" />
         <option value="$PROJECT_DIR$/QuestionService/QuestionService/pom.xml" />
-        <option value="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/pom.xml" />
-        <option value="$PROJECT_DIR$/UserService/pom.xml" />
-        <option value="$PROJECT_DIR$/HotelService/pom.xml" />
-        <option value="$PROJECT_DIR$/RatingService/pom.xml" />
-        <option value="$PROJECT_DIR$/CloudGateway/ServiceRegistry/pom.xml" />
-        <option value="$PROJECT_DIR$/RegistryService/ServiceRegistry/pom.xml" />
-        <option value="$PROJECT_DIR$/CloudGateWay/ApiGateway/pom.xml" />
-        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/pom.xml" />
+        <option value="$PROJECT_DIR$/EntrepriseService/pom.xml" />
+        <option value="$PROJECT_DIR$/QuizService/QuizService/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/ApiGateway/ApiGateway/pom.xml" />
-        <option value="$PROJECT_DIR$/QuestionService/QuestionService/pom.xml" />
-        <option value="$PROJECT_DIR$/QuizService/QuizService/pom.xml" />
-        <option value="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/pom.xml" />
-      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="jpab" />
   </component>
 </project>
