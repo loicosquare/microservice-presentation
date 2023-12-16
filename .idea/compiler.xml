@@ -3,68 +3,6 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="ApiGateway (1) (com.gatway)" />
-        <module name="CommandeService" />
-        <module name="HotelService" />
-        <module name="ServiceRegistry (1) (com.tech.service.ServiceRegistry)" />
-        <module name="UserService" />
-        <module name="ServiceRegistry (1) (com.registry)" />
-        <module name="QuizService" />
-        <module name="ConfigServer" />
-        <module name="ServiceRegistry" />
-        <module name="RatingService" />
-<<<<<<< HEAD
-        <module name="QuestionService" />
-=======
->>>>>>> games
-        <module name="ApiGateway" />
-      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-<<<<<<< HEAD
-      <module name="ApiGateway (1) (com.gatway)" target="17" />
-      <module name="ApiGateway (1) (com.tech.service.ApiGateway)" target="17" />
-      <module name="CategorieService" target="17" />
-      <module name="CommandeService" target="17" />
-=======
-      <module name="ApiGateway (1) (com.tech.service.ApiGateway)" target="17" />
-      <module name="CategorieService" target="17" />
->>>>>>> games
-      <module name="EntrepriseService" target="17" />
-      <module name="GameService" target="17" />
-      <module name="LivraisonService" target="17" />
-      <module name="PaiementService" target="17" />
-<<<<<<< HEAD
-=======
-      <module name="QuestionService" target="17" />
-      <module name="QuizService" target="17" />
-      <module name="ServiceRegistry" target="17" />
->>>>>>> games
-    </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ApiGateway" options="-parameters" />
-      <module name="ApiGateway (1) (com.gatway)" options="-parameters" />
-      <module name="ApiGateway (1) (com.tech.service.ApiGateway)" options="-parameters" />
-      <module name="CommandeService" options="-parameters" />
-<<<<<<< HEAD
-      <module name="ConfigServer" options="-parameters" />
-=======
-      <module name="ConfigServer" options="" />
->>>>>>> games
-      <module name="HotelService" options="-parameters" />
-      <module name="QuestionService" options="-parameters" />
-      <module name="QuizService" options="-parameters" />
-      <module name="RatingService" options="-parameters" />
-      <module name="ServiceRegistry" options="-parameters" />
-      <module name="ServiceRegistry (1) (com.registry)" options="-parameters" />
-      <module name="ServiceRegistry (1) (com.tech.service.ServiceRegistry)" options="-parameters" />
-      <module name="UserService" options="-parameters" />
-    </option>
   </component>
 </project>

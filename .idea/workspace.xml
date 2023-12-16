@@ -5,285 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cfd5c05-3d39-4129-b061-98b5fe8c8889" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3/storage_v2/_src_/database/entreprise-service.gxTsWQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3/storage_v2/_src_/database/entreprise-service.gxTsWQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/micro_services.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/0001fa51857825c85c5c7c31d31ecdc0d14b7535" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d94df85619a1e064d71e6f61b5c249cb64d2e76" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31953fa8b02f4cc15497e9b3146f8c2139dc1a92" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4228fe0b1e6c50d3796c5826aa5c0d6dab5c8e05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4314483c01fcb3d569eda201a3505b847d66db7c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48981c9385d8786caf2728f1fbb37aba0dc9cf4d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7ba5c28d3aa64c3e1dca73675fa274cff2d38305" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c2853405bff7c798f7ac5fa194633105de98bda" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82160f4381f43d811b4ec3fdbce7033276ee5a68" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/8761b9412667346154e3d0c5935d63482a91fa1b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87a3e78db6b8af8dc6c652f9d2ffa3be550069f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/942ab027f9c83c244b2a92d3b29a7418984e2d68" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cb4f4f83b5c3ac2a6e939fb6b3a603edfd24cad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7cd54f01b4056a97c2740c2b1d68e5c25059e5d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa625223ba47971d0b7635bae7b99e32b6381ef5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae0094b10d7176098bab2572bcf25997f2eb8696" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1132e9fa4d104b722c30fce6fd2743bb2284456" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2f5299d90119fb6177af96297562a7d5fe130f3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c471c87d259088d4fd8e47553cd1a7b5686b39a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c65a10b662e9e41a199f8b2a9dcf6cf22c19203e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/dacab106cfd363340d09758b3b3629f96822b7de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/ddc6abb7449ec8d30916eff48adfd3a4c161f8e9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee0c99caa22b2fd1a8a30d742577ee091132096a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/0/0001fa51857825c85c5c7c31d31ecdc0d14b7535" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/17c94409518c1e7435327edc6eeb0f44691a6c0d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/d/1d0b4a51f0aa68fb9e8158f872010265b4322be4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/d/1d94df85619a1e064d71e6f61b5c249cb64d2e76" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/1/31953fa8b02f4cc15497e9b3146f8c2139dc1a92" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/0/40ce89346799ec6df94c0d036979bb1ddf1cf07f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/1/41bece70cbcd6a0952c27aa17d29fc73f2394d45" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/4228fe0b1e6c50d3796c5826aa5c0d6dab5c8e05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/3/4314483c01fcb3d569eda201a3505b847d66db7c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/8/48981c9385d8786caf2728f1fbb37aba0dc9cf4d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/e/4e5f8c61ee882f221ec423c507c574af528b855c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/7/57ac52cfca0e1d775c3380abbab17d71f54b45e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/f/5ff7fdc267f8a99c9a060dcd69e2fa3383aeda61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/8/68f081175574c9293474867f7ba0c8718e779b99" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/2/72ee1c870dae5cf8b5a8e9337fabd845cdcb39b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/b/7ba5c28d3aa64c3e1dca73675fa274cff2d38305" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/c/7c2853405bff7c798f7ac5fa194633105de98bda" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/82160f4381f43d811b4ec3fdbce7033276ee5a68" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/873708cdab1b421ef62b3f8a2adcbfa46debc008" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/8761b9412667346154e3d0c5935d63482a91fa1b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/87a3e78db6b8af8dc6c652f9d2ffa3be550069f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f140ba592634211b2302c2784b9aa0d76400ba3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/4/942ab027f9c83c244b2a92d3b29a7418984e2d68" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9cb4f4f83b5c3ac2a6e939fb6b3a603edfd24cad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/7/a7cd54f01b4056a97c2740c2b1d68e5c25059e5d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa625223ba47971d0b7635bae7b99e32b6381ef5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/e/ae0094b10d7176098bab2572bcf25997f2eb8696" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/1/b1132e9fa4d104b722c30fce6fd2743bb2284456" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/2/b2f5299d90119fb6177af96297562a7d5fe130f3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/4/c471c87d259088d4fd8e47553cd1a7b5686b39a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/6/c65a10b662e9e41a199f8b2a9dcf6cf22c19203e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/a/dacab106cfd363340d09758b3b3629f96822b7de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/c/dc89dd74bdc8c67f2f0c1eee56a3470f3753e2c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/d/ddc6abb7449ec8d30916eff48adfd3a4c161f8e9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/c/ec90dfcc1e1a9663bebf26d43937cfd57d06580d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/ee0c99caa22b2fd1a8a30d742577ee091132096a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CategorieService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CategorieService/src/main/java/com/tech/categorieService/CategorieServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandeService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandeService/src/main/java/com/tech/commandeService/CommandeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandeService/src/test/java/com/tech/commandeService/CommandeServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/controller/EntrepriseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/repository/EntrepriseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/services/EntrepriseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/services/impl/EntrepriseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntrepriseService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EntrepriseService/src/test/java/com/tech/entrepriseService/EntrepriseServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/GameServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/controller/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/entities/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/repository/GameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/src/test/java/com/tech/gameService/GameServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LivraisonService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LivraisonService/src/main/java/com/tech/livraisonService/LivraisonService/LivraisonServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LivraisonService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LivraisonService/src/test/java/com/tech/livraisonService/LivraisonService/LivraisonServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaiementService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaiementService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaiementService/src/main/java/com/tech/paiementService/PaiementServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaiementService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaiementService/src/test/java/com/tech/paiementService/PaiementServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestionService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestionService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestionService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestionService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestionService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuizService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuizService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuizService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuizService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/external/services/EntrepriseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3/storage_v2/_src_/database/entreprise-service.gxTsWQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3/storage_v2/_src_/database/entreprise-service.gxTsWQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3/storage_v2/_src_/database/entreprise-service.gxTsWQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3/storage_v2/_src_/database/entreprise-service.gxTsWQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d0b4a51f0aa68fb9e8158f872010265b4322be4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d0b4a51f0aa68fb9e8158f872010265b4322be4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/344cdf250e6495f8b3379440cad57e0e585610a0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/344cdf250e6495f8b3379440cad57e0e585610a0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41bece70cbcd6a0952c27aa17d29fc73f2394d45" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41bece70cbcd6a0952c27aa17d29fc73f2394d45" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e5f8c61ee882f221ec423c507c574af528b855c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e5f8c61ee882f221ec423c507c574af528b855c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4efe590139b2da9cd9d14f8cbfeb63ace8eec800" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4efe590139b2da9cd9d14f8cbfeb63ace8eec800" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/5707502e08284c01843651819a8f57a9a63d2e59" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/5707502e08284c01843651819a8f57a9a63d2e59" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/57ac52cfca0e1d775c3380abbab17d71f54b45e5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/57ac52cfca0e1d775c3380abbab17d71f54b45e5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/dc89dd74bdc8c67f2f0c1eee56a3470f3753e2c2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/dc89dd74bdc8c67f2f0c1eee56a3470f3753e2c2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5917c477f6579e4521e86c2c6186890602ed7eec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5917c477f6579e4521e86c2c6186890602ed7eec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ff7fdc267f8a99c9a060dcd69e2fa3383aeda61" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ff7fdc267f8a99c9a060dcd69e2fa3383aeda61" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68f081175574c9293474867f7ba0c8718e779b99" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68f081175574c9293474867f7ba0c8718e779b99" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72ee1c870dae5cf8b5a8e9337fabd845cdcb39b9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72ee1c870dae5cf8b5a8e9337fabd845cdcb39b9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/873708cdab1b421ef62b3f8a2adcbfa46debc008" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/873708cdab1b421ef62b3f8a2adcbfa46debc008" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f140ba592634211b2302c2784b9aa0d76400ba3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f140ba592634211b2302c2784b9aa0d76400ba3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be1cf3aa449865649d38013d374d6927e469fbab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be1cf3aa449865649d38013d374d6927e469fbab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c509441d42f20a17984b19e2ece73cd2c99dd2d3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c509441d42f20a17984b19e2ece73cd2c99dd2d3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cca2e1b9728e333fc72c0962a88ed9b8a93424fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cca2e1b9728e333fc72c0962a88ed9b8a93424fd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d60bf5ce670230e370c465416cc4264571cd4306" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d60bf5ce670230e370c465416cc4264571cd4306" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc0a8a56f1d237640191cf337a1dce36be0a6c6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc0a8a56f1d237640191cf337a1dce36be0a6c6c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1d2f0944673125a39de3b67652d9f82d513fe5a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1d2f0944673125a39de3b67652d9f82d513fe5a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e27d12d4f0cc71bb596424a32ab0ff54248db767" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e27d12d4f0cc71bb596424a32ab0ff54248db767" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3f7bbff7742cfd55dc2821fb5b7140ec79df0c8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3f7bbff7742cfd55dc2821fb5b7140ec79df0c8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6b1ebcefe6cd03beda069f98729b3a4d44a7aed" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6b1ebcefe6cd03beda069f98729b3a4d44a7aed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9b2fd63df079cad3b06fd0bb6e3aa4e270a7c30" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9b2fd63df079cad3b06fd0bb6e3aa4e270a7c30" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec90dfcc1e1a9663bebf26d43937cfd57d06580d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec90dfcc1e1a9663bebf26d43937cfd57d06580d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef08c46625126e407007d05aead5290f30711dd6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef08c46625126e407007d05aead5290f30711dd6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fedc3f2f6bb2941a2b2203ef3a24635bc81f8eda" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fedc3f2f6bb2941a2b2203ef3a24635bc81f8eda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffddcbafce9a6aa210161d0474661eebdc6c48b5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffddcbafce9a6aa210161d0474661eebdc6c48b5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway (1) (com.tech.service.ApiGateway).iml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/ApiGateway (1) (com.tech.service.ApiGateway).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway/src/main/java/com/gatway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/src/main/java/com/gatway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/ApiGateway/src/test/java/com/gatway/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/src/test/java/com/gatway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/target/classes/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/target/classes/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/target/test-classes/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/target/test-classes/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CategorieService/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CategorieService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CategorieService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/ApiGateway (1) (com.tech.service.ApiGateway).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/CategorieService/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/CategorieService/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/src/main/java/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/tech/apiGateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/src/test/java/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/test/java/com/tech/apiGateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CategorieService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/target/classes/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloudGateWay/ApiGateway/target/test-classes/com/tech/service/ApiGateway/ApiGateway/ApiGatewayApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigServer/src/main/java/com/tech/config/server/ConfigServer/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/src/main/java/com/tech/ConfigServer/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigServer/src/test/java/com/tech/config/server/ConfigServer/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/src/test/java/com/tech/ConfigServer/ConfigServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CommandeService/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommandeService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommandeService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/CommandeService/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/CommandeService/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/HotelServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/EntrepriseServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/controller/HotelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/controller/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/controller/StaffController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/entities/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/entities/Entreprise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/repository/HotelRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/services/HotelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/java/com/tech/hotel/service/HotelService/services/impl/HotelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommandeService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelService/src/test/java/com/tech/hotel/service/HotelService/HotelServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategorieService/src/test/java/com/tech/categorieService/CategorieServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/src/main/java/com/question/QuestionService/QuestionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/src/main/java/com/question/QuestionService/QuestionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/src/main/java/com/question/QuestionService/controllers/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/src/main/java/com/question/QuestionService/controllers/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/src/main/java/com/question/QuestionService/entities/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/src/main/java/com/question/QuestionService/entities/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/src/main/java/com/question/QuestionService/repositories/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/src/main/java/com/question/QuestionService/repositories/QuestionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/src/main/java/com/question/QuestionService/services/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/src/main/java/com/question/QuestionService/services/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/src/main/java/com/question/QuestionService/services/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/src/main/java/com/question/QuestionService/services/impl/QuestionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService/src/test/java/com/question/QuestionService/QuestionServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/src/test/java/com/question/QuestionService/QuestionServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/java/com/quiz/QuizServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quiz/QuizServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/java/com/quiz/controllers/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quiz/controllers/QuizController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/java/com/quiz/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quiz/controllers/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/java/com/quiz/entities/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quiz/entities/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/java/com/quiz/entities/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quiz/entities/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/java/com/quiz/repositories/QuizRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quiz/repositories/QuizRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/java/com/quiz/services/QuestionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quiz/services/QuestionClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/java/com/quiz/services/QuizService.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quiz/services/QuizService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/java/com/quiz/services/impl/QuizServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/java/com/quiz/services/impl/QuizServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizService/QuizService/src/test/java/com/quiz/QuizServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuizService/src/test/java/com/quiz/QuizServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/RatingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/controller/RatingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/entities/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/entities/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/repository/RatingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/repository/RatingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/services/RatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/services/RatingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/rating/service/RatingService/services/impl/RatingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/services/impl/RatingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/test/java/com/tech/rating/service/RatingService/RatingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/test/java/com/tech/ratingService/RatingServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LivraisonService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/LivraisonService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/LivraisonService/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LivraisonService/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/src/main/java/com/tech/service/ServiceRegistry/ServiceRegistry/ServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/ServiceRegistryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistryService/ServiceRegistry/src/test/java/com/tech/service/ServiceRegistry/ServiceRegistry/ServiceRegistryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/test/java/com/tech/ServiceRegistry/ServiceRegistryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LivraisonService/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/PaiementService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PaiementService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/PaiementService/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/PaiementService/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/src/main/java/com/registry/ServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/src/main/java/com/registry/ServiceRegistryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/src/test/java/com/registry/ServiceRegistryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/src/test/java/com/registry/ServiceRegistryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/config/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/externalEntities/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/entities/externalEntities/Entreprise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/entities/externalEntities/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/entities/externalEntities/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/exceptions/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/exceptions/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/external/services/HotelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/payload/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/payload/ApiResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/user/service/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/test/java/com/tech/user/service/UserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/test/java/com/tech/userService/UserServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,8 +22,16 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2Ze5UzA7uNsbuEys9wHaZrp7hYp" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -309,9 +39,14 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "Merging master",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.UserServiceApplication">
@@ -403,6 +138,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringProfilesService">
     <option name="activeProfiles">
       <map>
@@ -411,6 +147,17 @@
     </option>
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cfd5c05-3d39-4129-b061-98b5fe8c8889" name="Changes" comment="" />
+      <created>1702769730263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702769730263</updated>
+      <workItem from="1702769733049" duration="49000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
