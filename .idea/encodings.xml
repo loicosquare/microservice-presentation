@@ -2,8 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ApiGateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CategorieService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommandeService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConfigServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EntrepriseService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LivraisonService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PaiementService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/QuestionService/QuestionService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/QuestionService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/QuizService/QuizService/src/main/java" charset="UTF-8" />

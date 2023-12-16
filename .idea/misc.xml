@@ -13,6 +13,11 @@
         <option value="$PROJECT_DIR$/RatingService/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceRegistry/pom.xml" />
         <option value="$PROJECT_DIR$/UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/PaiementService/pom.xml" />
+        <option value="$PROJECT_DIR$/LivraisonService/pom.xml" />
+        <option value="$PROJECT_DIR$/GameService/pom.xml" />
+        <option value="$PROJECT_DIR$/CommandeService/pom.xml" />
+        <option value="$PROJECT_DIR$/CategorieService/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

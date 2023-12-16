@@ -5,23 +5,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3c72031-f0ce-469e-9cdf-2a8c69ad7b39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17c94409518c1e7435327edc6eeb0f44691a6c0d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41bece70cbcd6a0952c27aa17d29fc73f2394d45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ff7fdc267f8a99c9a060dcd69e2fa3383aeda61" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68f081175574c9293474867f7ba0c8718e779b99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/942ab027f9c83c244b2a92d3b29a7418984e2d68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7cd54f01b4056a97c2740c2b1d68e5c25059e5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae0094b10d7176098bab2572bcf25997f2eb8696" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/dacab106cfd363340d09758b3b3629f96822b7de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc89dd74bdc8c67f2f0c1eee56a3470f3753e2c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec90dfcc1e1a9663bebf26d43937cfd57d06580d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffddcbafce9a6aa210161d0474661eebdc6c48b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/17c94409518c1e7435327edc6eeb0f44691a6c0d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/1/41bece70cbcd6a0952c27aa17d29fc73f2394d45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/f/5ff7fdc267f8a99c9a060dcd69e2fa3383aeda61" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/8/68f081175574c9293474867f7ba0c8718e779b99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/4/942ab027f9c83c244b2a92d3b29a7418984e2d68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/7/a7cd54f01b4056a97c2740c2b1d68e5c25059e5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/e/ae0094b10d7176098bab2572bcf25997f2eb8696" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/a/dacab106cfd363340d09758b3b3629f96822b7de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/c/dc89dd74bdc8c67f2f0c1eee56a3470f3753e2c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/c/ec90dfcc1e1a9663bebf26d43937cfd57d06580d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/f/ffddcbafce9a6aa210161d0474661eebdc6c48b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CategorieService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CategorieService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CategorieService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CategorieService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CategorieService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CategorieService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CategorieService/src/main/java/com/tech/categorieService/CategorieServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CategorieService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CategorieService/src/test/java/com/tech/categorieService/CategorieServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandeService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandeService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandeService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandeService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandeService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandeService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandeService/src/main/java/com/tech/commandeService/CommandeServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandeService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommandeService/src/test/java/com/tech/commandeService/CommandeServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/GameServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/controller/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/entities/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/repository/GameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameService/src/test/java/com/tech/gameService/GameServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LivraisonService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LivraisonService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LivraisonService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LivraisonService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LivraisonService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LivraisonService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LivraisonService/src/main/java/com/tech/livraisonService/LivraisonService/LivraisonServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LivraisonService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LivraisonService/src/test/java/com/tech/livraisonService/LivraisonService/LivraisonServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaiementService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaiementService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaiementService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaiementService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaiementService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaiementService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaiementService/src/main/java/com/tech/paiementService/PaiementServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaiementService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaiementService/src/test/java/com/tech/paiementService/PaiementServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3/storage_v2/_src_/database/entreprise-service.gxTsWQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/be32f552-80ec-4795-a9f2-89899af5a4a3/storage_v2/_src_/database/entreprise-service.gxTsWQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28339f95278e015fcda069b2778ff748468041dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61c604f7200bb4e95bb363fb7929c48bf3c284f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b82ab50317ed0b6b60ba8ab2dd9a44184f1efaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c85fa7fd62c1a2bfa5e0946eaeedcff303dd0c49" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/8/28339f95278e015fcda069b2778ff748468041dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/1/61c604f7200bb4e95bb363fb7929c48bf3c284f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/b/7b82ab50317ed0b6b60ba8ab2dd9a44184f1efaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/8/c85fa7fd62c1a2bfa5e0946eaeedcff303dd0c49" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntrepriseService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/controller/EntrepriseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EntrepriseService/src/main/java/com/tech/entrepriseService/controller/EntrepriseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingService/controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingService/controller/RatingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/entities/externalEntities/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/entities/externalEntities/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/external/services/EntrepriseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/external/services/EntrepriseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/services/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingService/RatingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingService/controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/controller/RatingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingService/entities/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/entities/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingService/repository/RatingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/repository/RatingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingService/services/RatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/services/RatingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/RatingService/services/impl/RatingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/services/impl/RatingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/test/java/com/tech/ratingService/RatingService/RatingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/test/java/com/tech/ratingService/RatingServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/exceptions/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,30 +123,36 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ZbTNDbc5ukzhxds1cM7j38utj0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "OverrideImplement.generate.javadoc": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ApiGatewayApplication (1).executor": "Run",
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.EntrepriseServiceApplication.executor": "Run",
     "Spring Boot.ServiceRegistryApplication (1).executor": "Run",
-    "git-widget-placeholder": "refactoProject",
+    "git-widget-placeholder": "games",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/UserService",
+    "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/CategorieService",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,8 +170,22 @@
       </method>
     </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ApiGateway" />
+      <module name="ApiGateway (1) (com.gatway)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gatway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategorieServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CategorieService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tech.categorieService.CategorieServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CommandeService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tech.commandeService.CommandeServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,6 +204,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GameService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tech.gameService.GameServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LivraisonServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="LivraisonService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tech.livraisonService.LivraisonService.LivraisonServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaiementServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="PaiementService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tech.paiementService.PaiementServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuestionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="QuestionService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.question.QuestionService.QuestionServiceApplication" />
@@ -100,6 +235,13 @@
     <configuration name="QuizServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="QuizService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.quiz.QuizServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatingServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="RatingService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tech.ratingService.RatingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +283,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702689739574</updated>
-      <workItem from="1702689742100" duration="5517000" />
+      <workItem from="1702689742100" duration="10990000" />
+      <workItem from="1702732820804" duration="6516000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

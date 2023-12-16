@@ -17,6 +17,6 @@ public class GlobalExceptionHandler {
                 .success(true)
                 .status(HttpStatus.NOT_FOUND)
                 .build();
-        return new ResponseEntity<ApiResponse>(response, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
     }
 }

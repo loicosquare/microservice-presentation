@@ -7,14 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="LivraisonService" />
+        <module name="ApiGateway (1) (com.gatway)" />
+        <module name="CategorieService" />
         <module name="UserService" />
         <module name="QuizService" />
+        <module name="EntrepriseService" />
+        <module name="ApiGateway" />
+        <module name="CommandeService" />
+        <module name="GameService" />
         <module name="ConfigServer" />
         <module name="ServiceRegistry" />
-        <module name="EntrepriseService" />
         <module name="QuestionService" />
         <module name="RatingService" />
-        <module name="ApiGateway" />
+        <module name="PaiementService" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,8 +28,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApiGateway" options="-parameters" />
       <module name="ApiGateway (1) (com.gatway)" options="-parameters" />
+      <module name="CategorieService" options="-parameters" />
+      <module name="CommandeService" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="EntrepriseService" options="-parameters" />
+      <module name="GameService" options="-parameters" />
+      <module name="LivraisonService" options="-parameters" />
+      <module name="PaiementService" options="-parameters" />
       <module name="QuestionService" options="-parameters" />
       <module name="QuizService" options="-parameters" />
       <module name="RatingService" options="-parameters" />
