@@ -11,7 +11,7 @@
 	<groupId>com.tech.entreprise.service</groupId>
 	<artifactId>EntrepriseService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>HotelService</name>
+	<name>EntrepriseService</name>
 	<description>This service is for storing data of enterprises</description>
 	<properties>
 		<java.version>17</java.version>

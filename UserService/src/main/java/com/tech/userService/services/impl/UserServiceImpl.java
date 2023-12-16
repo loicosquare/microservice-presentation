@@ -53,13 +53,13 @@ public class UserServiceImpl implements UserService {
                 List<Rating> ratingList = Arrays.asList(ratingsOfUser);
 
                 ratingList.forEach(rating -> {
-                    ResponseEntity<Entreprise> hotelEntity = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/" + rating.getHotelId(), Entreprise.class);
+                    ResponseEntity<Entreprise> entrepriseEntity = restTemplate.getForEntity("http://ENTREPRISE-SERVICE/entreprises/" + rating.getEntrepriseId(), Entreprise.class);
 
-                    if (hotelEntity.getStatusCode().is2xxSuccessful()) {
-                        Entreprise entreprise = hotelEntity.getBody();
+                    if (entrepriseEntity.getStatusCode().is2xxSuccessful()) {
+                        Entreprise entreprise = entrepriseEntity.getBody();
                         rating.setEntreprise(entreprise);
                     } else {
-                        logger.warn("Hôtel non trouvé pour le ratingService {}", rating.getRatingId());
+                        logger.warn("Entreprise non trouvée pour le ratingService {}", rating.getRatingId());
                     }
                 });
 
@@ -87,20 +87,21 @@ public class UserServiceImpl implements UserService {
         *API Call to entreprise Service to get the entreprise
         * set the entreprise to the ratingService
         * return the ratingService.
+        * TODO: Add game entity and set it to the user.
         */
-        // http://localhost:8082/hotels/id/
+        // http://localhost:8082/entreprises/id/
         logger.info("{} ", ratingsOfUser);
         List<Rating> ratings = Arrays.stream(ratingsOfUser).toList();
         List<Rating> ratingList = ratings.stream().map(rating -> {
             //api call to entreprise userService to get the entreprise
-            //http://localhost:8082/hotels/1cbaf36d-0b28-4173-b5ea-f1cb0bc0a791
+            //http://localhost:8082/entreprises/1cbaf36d-0b28-4173-b5ea-f1cb0bc0a791
 
-            //ResponseEntity<Entreprise> hotelEntity = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/"+ratingService.getHotelId(), Entreprise.class);
-            //Entreprise entreprise = hotelEntity.getBody();
+            //ResponseEntity<Entreprise> entrepriseEntity = restTemplate.getForEntity("http://ENTREPRISE-SERVICE/entreprises/"+ratingService.getEntrepriseId(), Entreprise.class);
+            //Entreprise entreprise = entrepriseEntity.getBody();
 
-            Entreprise entreprise = entrepriseService.getHotel(rating.getHotelId());
+            Entreprise entreprise = entrepriseService.getEntreprise(rating.getEntrepriseId());
 
-            //logger.info("response status code: {} ",hotelEntity.getStatusCode());
+            //logger.info("response status code: {} ",entrepriseEntity.getStatusCode());
 
             //set the entreprise to ratingService
             rating.setEntreprise(entreprise);

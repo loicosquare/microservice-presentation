@@ -19,14 +19,14 @@ public class EntrepriseController {
     //create
 
     @PostMapping
-    public ResponseEntity<Entreprise> createHotel(@RequestBody Entreprise entreprise) {
+    public ResponseEntity<Entreprise> createEntreprise(@RequestBody Entreprise entreprise) {
         return ResponseEntity.status(HttpStatus.CREATED).body(entrepriseService.create(entreprise));
     }
 
 
     //get single
     @GetMapping("/{entrepriseId}")
-    public ResponseEntity<Entreprise> getHotel(@PathVariable String entrepriseId) {
+    public ResponseEntity<Entreprise> getEntreprise(@PathVariable String entrepriseId) {
         return ResponseEntity.status(HttpStatus.OK).body(entrepriseService.get(entrepriseId));
     }
 

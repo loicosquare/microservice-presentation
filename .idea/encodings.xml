@@ -5,8 +5,11 @@
     <file url="file://$PROJECT_DIR$/ConfigServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EntrepriseService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/QuestionService/QuestionService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QuestionService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/QuizService/QuizService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QuizService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RatingService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ServiceRegistry/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/UserService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/src/main/java" charset="UTF-8" />
