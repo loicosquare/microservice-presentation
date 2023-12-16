@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-233.11799.300">
+    <data-source name="entreprise-service@localhost" uuid="be32f552-80ec-4795-a9f2-89899af5a4a3">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="question@localhost" uuid="1b573eec-aba7-4bf4-b8f7-ceac831f390b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="user-service@localhost" uuid="579d3db2-67b8-4515-8226-5e18b6fd2184">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="quiz@localhost" uuid="b9c026b2-4ec8-4c93-afe1-056827290275">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="rating-service@localhost" uuid="f03ff7c8-c0d0-417d-bf64-5f5ef14e51fd">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MONGO" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

@@ -19,5 +19,5 @@ spring:
 #  client:
 #    fetch-registry: true
 #    register-with-eureka: true
-#    service-url:
+#    userService-url:
 #      defaultzone: http://localhost:8761/eureka

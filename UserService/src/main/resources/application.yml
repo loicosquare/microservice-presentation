@@ -28,7 +28,7 @@ spring:
 #  client:
 #    fetch-registry: true
 #    register-with-eureka: true
-#    service-url:
+#    userService-url:
 #      defaultzone: http://localhost:8761/eureka
 
 #Juste pour exposer les différents endpoints de notre application avec Actuator => This will allow to se the different states of circuit breakers (OPEN CLOSED HALF-OPEN).
@@ -49,7 +49,7 @@ management:
 resilience4j:
   circuitbreaker:
     instances:
-      ratingHotelBreaker:
+      ratingEntrepriseBreaker:
         registerHealthIndicator: true
         eventConsumerBufferSize: 10
         failureRateThreshold: 50
@@ -61,6 +61,6 @@ resilience4j:
         slidingWindowType: COUNT_BASED
   retry:
     instances:
-      ratingHotelService:
+      ratingEntrepriseService:
         max-attempts: 3
         wait-duration: 5s
