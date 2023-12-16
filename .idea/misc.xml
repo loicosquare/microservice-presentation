@@ -4,11 +4,10 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/pom.xml" />
-        <option value="$PROJECT_DIR$/QuestionService/QuestionService/pom.xml" />
-        <option value="$PROJECT_DIR$/ocr_old/ServiceRegistry/ServiceRegistry/pom.xml" />
         <option value="$PROJECT_DIR$/EntrepriseService/pom.xml" />
-        <option value="$PROJECT_DIR$/QuizService/QuizService/pom.xml" />
+        <option value="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
