@@ -15,14 +15,14 @@
         <option value="$PROJECT_DIR$/RegistryService/ServiceRegistry/pom.xml" />
         <option value="$PROJECT_DIR$/CloudGateWay/ApiGateway/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/CommandeService/pom.xml" />
+        <option value="$PROJECT_DIR$/ApiGateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/ApiGateway/ApiGateway/pom.xml" />
-        <option value="$PROJECT_DIR$/QuestionService/QuestionService/pom.xml" />
-        <option value="$PROJECT_DIR$/QuizService/QuizService/pom.xml" />
-        <option value="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/pom.xml" />
       </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
