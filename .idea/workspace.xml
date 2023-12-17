@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cfd5c05-3d39-4129-b061-98b5fe8c8889" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/entities/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/external/entities/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShippingService/DeliveryService.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CategoryService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/external/entities/Entreprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/external/entities/Enterprise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +60,7 @@
     "Spring Boot.UserServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/DeliveryService",
+    "last_opened_file_path": "C:/Users/lfonkouo/OneDrive - Capgemini/Documents/Loic Sanou/Techs/micro_services/CommandService",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -251,7 +245,7 @@
       <updated>1702769730263</updated>
       <workItem from="1702769733049" duration="8064000" />
       <workItem from="1702810187298" duration="687000" />
-      <workItem from="1702810905589" duration="1995000" />
+      <workItem from="1702810905589" duration="2452000" />
     </task>
     <servers />
   </component>

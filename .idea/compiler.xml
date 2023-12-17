@@ -10,6 +10,7 @@
         <module name="GameService" />
         <module name="UserService" />
         <module name="DeliveryService" />
+        <module name="CommandService" />
         <module name="EnterpriseService" />
         <module name="ConfigServer" />
         <module name="ServiceRegistry" />
@@ -20,7 +21,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ApiGateway (1) (com.gatway)" target="17" />
-      <module name="CommandService" target="17" />
       <module name="DeliveryService" target="17" />
       <module name="EntrepriseService" target="17" />
       <module name="PaymentService" target="17" />

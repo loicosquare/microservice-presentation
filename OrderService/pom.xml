@@ -8,11 +8,11 @@
 		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.tech.commandService</groupId>
-	<artifactId>CommandService</artifactId>
+	<groupId>com.tech.orderService</groupId>
+	<artifactId>OrderService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CommandService</name>
-	<description>This is Command Service</description>
+	<name>OrderService</name>
+	<description>This is Order Service</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.0</spring-cloud.version>
