@@ -25,10 +25,8 @@
         <option value="$PROJECT_DIR$/CategorieService/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceRegistry/pom.xml" />
         <option value="$PROJECT_DIR$/CategoryService/pom.xml" />
-        <option value="$PROJECT_DIR$/CommandService/pom.xml" />
         <option value="$PROJECT_DIR$/EnterpriseService/pom.xml" />
         <option value="$PROJECT_DIR$/ShippingService/pom.xml" />
-        <option value="$PROJECT_DIR$/PaymentService/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

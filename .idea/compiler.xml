@@ -7,22 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="UserService" />
-        <module name="CommandService" />
-        <module name="EnterpriseService" />
-        <module name="ApiGateway" />
         <module name="GameService" />
+        <module name="UserService" />
         <module name="DeliveryService" />
+        <module name="EnterpriseService" />
         <module name="ConfigServer" />
         <module name="ServiceRegistry" />
         <module name="CategoryService" />
         <module name="RatingService" />
-        <module name="PaymentService" />
+        <module name="ApiGateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ApiGateway (1) (com.gatway)" target="17" />
+      <module name="CommandService" target="17" />
+      <module name="DeliveryService" target="17" />
       <module name="EntrepriseService" target="17" />
+      <module name="PaymentService" target="17" />
       <module name="QuestionService" target="17" />
       <module name="QuizService" target="17" />
     </bytecodeTargetLevel>

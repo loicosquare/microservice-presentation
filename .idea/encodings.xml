@@ -7,7 +7,6 @@
     <file url="file://$PROJECT_DIR$/CloudGateWay/ApiGateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CloudGateWay/ApiGateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CloudGateWay/ServiceRegistry/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/CommandService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CommandeService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConfigServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConfigServer/src/main/resources" charset="UTF-8" />
@@ -18,7 +17,6 @@
     <file url="file://$PROJECT_DIR$/HotelService/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LivraisonService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PaiementService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/PaymentService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/QuestionService/QuestionService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/QuizService/QuizService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RatingService/src/main/java" charset="UTF-8" />
