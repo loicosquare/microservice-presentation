@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cfd5c05-3d39-4129-b061-98b5fe8c8889" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/services/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/services/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandService/OrderService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/repository/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/repository/GameRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +244,7 @@
       <workItem from="1702769733049" duration="8064000" />
       <workItem from="1702810187298" duration="687000" />
       <workItem from="1702810905589" duration="2452000" />
-      <workItem from="1702813401956" duration="4379000" />
+      <workItem from="1702813401956" duration="5768000" />
     </task>
     <servers />
   </component>
