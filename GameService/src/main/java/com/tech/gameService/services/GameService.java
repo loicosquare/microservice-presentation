@@ -2,15 +2,15 @@ package com.tech.gameService.services;
 
 import com.tech.gameService.entities.Game;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Repository
+@Service
 public interface GameService {
-
     Game createGame(Game game);
     Game updateGame(Game game);
-    Game getGameById(String id);
-    String deleteGame(String id);
+    Game getGameById(String gameId);
     List<Game> getAllGames();
+    String deleteGame(String gameId);
 }

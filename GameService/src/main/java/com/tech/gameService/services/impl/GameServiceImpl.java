@@ -23,8 +23,10 @@ public class GameServiceImpl implements GameService {
     private static final Logger logger = LoggerFactory.getLogger(GameServiceImpl.class);
 
     /**
-     * @param game
-     * @return Game : Created game
+     * Crée un nouveau jeu.
+     *
+     * @param game Le jeu à créer.
+     * @return Le jeu créé.
      */
     @Override
     public Game createGame(Game game) {
@@ -37,8 +39,10 @@ public class GameServiceImpl implements GameService {
     }
 
     /**
-     * @param game
-     * @return Game : Updated game
+     * Met à jour un jeu existant.
+     *
+     * @param game Le jeu à mettre à jour.
+     * @return Le jeu mis à jour.
      */
     @Override
     public Game updateGame(Game game) {
@@ -76,30 +80,36 @@ public class GameServiceImpl implements GameService {
     }
 
     /**
-     * @param id
-     * @return Game : Game by id
+     * Obtient un jeu par son ID.
+     *
+     * @param gameId L'ID du jeu.
+     * @return Le jeu correspondant à l'ID spécifié.
+     * @throws RuntimeException si aucun jeu n'est trouvé.
      */
     @Override
-    public Game getGameById(String id) {
+    public Game getGameById(String gameId) {
         return gameRepository.findAll().stream()
-                .filter(game -> game.getGameId().equals(id))
+                .filter(game -> game.getGameId().equals(gameId))
                 .findFirst()
-                .orElseThrow(() -> new RuntimeException("Game with id {} not found"+ id));
+                .orElseThrow(() -> new RuntimeException("Game with id {} not found"+ gameId));
     }
 
     /**
-     * @param id
+     * Supprime un jeu par son ID.
+     *
+     * @param gameId L'ID du jeu à supprimer.
+     * @return Un message indiquant que le jeu a été supprimé avec succès.
      */
     @Override
-    public String deleteGame(String id) {
+    public String deleteGame(String gameId) {
         try {
-            Optional<Game> gameOptional = gameRepository.findById(id);
+            Optional<Game> gameOptional = gameRepository.findById(gameId);
 
             if (gameOptional.isPresent()) {
                 gameRepository.delete(gameOptional.get());
                 return "Le jeu a été supprimé avec succès.";
             } else {
-                return "Impossible de trouver le jeu avec l'ID : " + id;
+                return "Impossible de trouver le jeu avec l'ID : " + gameId;
             }
         } catch (Exception e) {
             logger.error("Une erreur est survenue lors de la suppression du jeu : {}", e.getMessage());
@@ -108,6 +118,7 @@ public class GameServiceImpl implements GameService {
     }
 
     /**
+     * Obtient tous les jeux.
      * @return List<Game> : All games in database (MongoDB) as a list.
      */
     @Override

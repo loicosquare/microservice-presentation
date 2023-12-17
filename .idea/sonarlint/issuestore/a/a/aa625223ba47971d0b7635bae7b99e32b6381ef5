@@ -1,0 +1,17 @@
+
+`	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(öÿßŠûÿÿÿÿ
+[	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(£¶ãŸ
+`	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(­åõøÿÿÿÿ
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(—–‹ûøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û…ÅÊ
+n
+java:S2139#"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+H
+java:S1135F"2Complete the task associated to this TODO comment.(óƒ½ˆ
+n
+java:S2139L"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+n
+java:S2139r"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+?	java:S108„")Either remove or fill this block of code.(å˜üå
+o
+java:S2139‹"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾

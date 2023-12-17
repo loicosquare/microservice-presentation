@@ -10,11 +10,11 @@
         <module name="GameService" />
         <module name="UserService" />
         <module name="DeliveryService" />
-        <module name="CommandService" />
         <module name="EnterpriseService" />
         <module name="ConfigServer" />
         <module name="ServiceRegistry" />
         <module name="CategoryService" />
+        <module name="OrderService" />
         <module name="RatingService" />
         <module name="ApiGateway" />
       </profile>
@@ -32,12 +32,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApiGateway" options="-parameters" />
       <module name="CategoryService" options="-parameters" />
-      <module name="CommandService" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="DeliveryService" options="-parameters" />
       <module name="EnterpriseService" options="-parameters" />
       <module name="EntrepriseService" options="-parameters" />
       <module name="GameService" options="-parameters" />
+      <module name="OrderService" options="-parameters" />
       <module name="PaymentService" options="-parameters" />
       <module name="QuestionService" options="-parameters" />
       <module name="QuizService" options="-parameters" />
