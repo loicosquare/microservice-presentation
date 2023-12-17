@@ -24,5 +24,6 @@ public class Game {
     private double price;
     private int gameLength;
     private String imageUrl;
+    private String enterpriseId; // Référence à l'enterprise qui a créé le jeu.
     private int categoryId; // Référence à la catégorie à laquelle appartient le jeu.
 }

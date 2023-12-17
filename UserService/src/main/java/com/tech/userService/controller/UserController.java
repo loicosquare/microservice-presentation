@@ -37,8 +37,8 @@ public class UserController {
 
     //single user get
     @GetMapping("/{userId}")
-    //@CircuitBreaker(name = "ratingEntrepriseCircuitBreaker", fallbackMethod = "ratingEntrepriseFallback")
-    @Retry(name = "ratingEntrepriseService", fallbackMethod = "ratingEntrepriseFallback")
+    //@CircuitBreaker(name = "ratingEnterpriseCircuitBreaker", fallbackMethod = "ratingEnterpriseFallback")
+    @Retry(name = "ratingEnterpriseService", fallbackMethod = "ratingEnterpriseFallback")
     public ResponseEntity<User> getSingleUser(@PathVariable String userId) {
 
         logger.info("Get Single User Handler: UserController");
@@ -50,7 +50,7 @@ public class UserController {
     }
 
 
-    public ResponseEntity<User> ratingEntrepriseFallback(String userId, Exception ex) { //The retrun type of the fallback Method should be the same as the method that returns the user object.
+    public ResponseEntity<User> ratingEnterpriseFallback(String userId, Exception ex) { //The retrun type of the fallback Method should be the same as the method that returns the user object.
 //        logger.info("Fallback is executed because userService is down : ", ex.getMessage());
         ex.printStackTrace();
 

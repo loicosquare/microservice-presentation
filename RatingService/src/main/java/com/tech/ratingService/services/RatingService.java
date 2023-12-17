@@ -16,5 +16,8 @@ public interface RatingService {
     List<Rating> getRatingByUserId(String userId);
 
     //get all by hotel
-    List<Rating> getRatingByEntrepriseId(String entrepriseId);
+    List<Rating> getRatingByEnterpriseId(String enterpriseId);
+
+    //get all by gameId
+    List<Rating> getRatingByGameId(String gameId);
 }

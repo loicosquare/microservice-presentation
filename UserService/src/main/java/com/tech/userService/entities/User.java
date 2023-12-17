@@ -1,6 +1,6 @@
 package com.tech.userService.entities;
 
-import com.tech.userService.entities.externalEntities.Rating;
+import com.tech.userService.external.entities.Rating;
 import lombok.*;
 
 import javax.persistence.Entity;

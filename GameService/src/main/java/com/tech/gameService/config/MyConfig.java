@@ -1,4 +1,4 @@
-package com.tech.userService.config;
+package com.tech.gameService.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

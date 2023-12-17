@@ -18,6 +18,17 @@
         <option value="$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/pom.xml" />
         <option value="$PROJECT_DIR$/CommandeService/pom.xml" />
         <option value="$PROJECT_DIR$/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/EntrepriseService/pom.xml" />
+        <option value="$PROJECT_DIR$/PaiementService/pom.xml" />
+        <option value="$PROJECT_DIR$/LivraisonService/pom.xml" />
+        <option value="$PROJECT_DIR$/GameService/pom.xml" />
+        <option value="$PROJECT_DIR$/CategorieService/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceRegistry/pom.xml" />
+        <option value="$PROJECT_DIR$/CategoryService/pom.xml" />
+        <option value="$PROJECT_DIR$/CommandService/pom.xml" />
+        <option value="$PROJECT_DIR$/EnterpriseService/pom.xml" />
+        <option value="$PROJECT_DIR$/ShippingService/pom.xml" />
+        <option value="$PROJECT_DIR$/PaymentService/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

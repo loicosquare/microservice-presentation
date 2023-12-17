@@ -1,4 +1,4 @@
-package com.tech.userService.entities.externalEntities;
+package com.tech.userService.external.entities;
 
 import lombok.*;
 
@@ -10,8 +10,8 @@ import lombok.*;
 public class Rating {
     private String ratingId;
     private String userId;
-    private String EntrepriseId;
+    private String EnterpriseId;
     private  int rating;
     private  String feedback;
-    private Entreprise entreprise;
+    private Enterprise enterprise;
 }

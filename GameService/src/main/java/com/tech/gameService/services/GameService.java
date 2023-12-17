@@ -11,6 +11,6 @@ public interface GameService {
     Game createGame(Game game);
     Game updateGame(Game game);
     Game getGameById(String id);
-    void deleteGame(String id);
+    String deleteGame(String id);
     List<Game> getAllGames();
 }

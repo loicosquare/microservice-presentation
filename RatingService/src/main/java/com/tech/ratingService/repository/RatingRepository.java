@@ -11,5 +11,6 @@ public interface RatingRepository extends MongoRepository<Rating, String> {
 
     //custom finder methods
     List<Rating> findByUserId(String userId);
-    List<Rating> findByEntrepriseId(String entrepriseId);
+    List<Rating> findByEnterpriseId(String enterpriseId);
+    List<Rating> findByGameId(String gameId);
 }

@@ -1,0 +1,28 @@
+server:
+  port: 8082
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/enterprise-service
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: ENTERPRISE-SERVICE
+  config:
+    import: optional:configserver:http://localhost:8085
+
+
+#Etape 4 de notre fichier contenant le guide des étapes à suivre pour la mise en place de notre microservice
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    userService-url:
+#      defaultzone: http://localhost:8761/eureka

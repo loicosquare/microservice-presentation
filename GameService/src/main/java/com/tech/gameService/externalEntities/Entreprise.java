@@ -1,4 +1,4 @@
-package com.tech.userService.entities.externalEntities;
+package com.tech.gameService.externalEntities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Entreprise {
+public class Enterprise {
 
     private  String id;
     private  String name;

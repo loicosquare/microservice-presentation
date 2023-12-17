@@ -1,10 +1,10 @@
 package com.tech.userService.services.impl;
 
-import com.tech.userService.entities.externalEntities.Entreprise;
-import com.tech.userService.entities.externalEntities.Rating;
+import com.tech.userService.external.entities.Enterprise;
+import com.tech.userService.external.entities.Rating;
 import com.tech.userService.entities.User;
 import com.tech.userService.exceptions.ResourceNotFoundException;
-import com.tech.userService.external.services.EntrepriseService;
+import com.tech.userService.external.services.EnterpriseService;
 import com.tech.userService.repository.UserRepository;
 import com.tech.userService.services.UserService;
 import lombok.RequiredArgsConstructor;
@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService {
 
     private final RestTemplate restTemplate;
 
-    private final EntrepriseService entrepriseService;
+    private final EnterpriseService enterpriseService;
 
     private static final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
 
@@ -53,13 +53,13 @@ public class UserServiceImpl implements UserService {
                 List<Rating> ratingList = Arrays.asList(ratingsOfUser);
 
                 ratingList.forEach(rating -> {
-                    ResponseEntity<Entreprise> entrepriseEntity = restTemplate.getForEntity("http://ENTREPRISE-SERVICE/entreprises/" + rating.getEntrepriseId(), Entreprise.class);
+                    ResponseEntity<Enterprise> enterpriseEntity = restTemplate.getForEntity("http://ENTERPRISE-SERVICE/enterprises/" + rating.getEnterpriseId(), Enterprise.class);
 
-                    if (entrepriseEntity.getStatusCode().is2xxSuccessful()) {
-                        Entreprise entreprise = entrepriseEntity.getBody();
-                        rating.setEntreprise(entreprise);
+                    if (enterpriseEntity.getStatusCode().is2xxSuccessful()) {
+                        Enterprise enterprise = enterpriseEntity.getBody();
+                        rating.setEnterprise(enterprise);
                     } else {
-                        logger.warn("Entreprise non trouvée pour le ratingService {}", rating.getRatingId());
+                        logger.warn("Enterprise non trouvée pour le ratingService {}", rating.getRatingId());
                     }
                 });
 
@@ -84,27 +84,27 @@ public class UserServiceImpl implements UserService {
         logger.info("Ratings of user: {}", ratingsOfUser);
 
         /*
-        *API Call to entreprise Service to get the entreprise
-        * set the entreprise to the ratingService
+        *API Call to enterprise Service to get the enterprise
+        * set the enterprise to the ratingService
         * return the ratingService.
         * TODO: Add game entity and set it to the user.
         */
-        // http://localhost:8082/entreprises/id/
+        // http://localhost:8082/enterprises/id/
         logger.info("{} ", ratingsOfUser);
         List<Rating> ratings = Arrays.stream(ratingsOfUser).toList();
         List<Rating> ratingList = ratings.stream().map(rating -> {
-            //api call to entreprise userService to get the entreprise
-            //http://localhost:8082/entreprises/1cbaf36d-0b28-4173-b5ea-f1cb0bc0a791
+            //api call to enterprise userService to get the enterprise
+            //http://localhost:8082/enterprises/1cbaf36d-0b28-4173-b5ea-f1cb0bc0a791
 
-            //ResponseEntity<Entreprise> entrepriseEntity = restTemplate.getForEntity("http://ENTREPRISE-SERVICE/entreprises/"+ratingService.getEntrepriseId(), Entreprise.class);
-            //Entreprise entreprise = entrepriseEntity.getBody();
+            //ResponseEntity<Enterprise> enterpriseEntity = restTemplate.getForEntity("http://ENTERPRISE-SERVICE/enterprises/"+ratingService.getEnterpriseId(), Enterprise.class);
+            //Enterprise enterprise = enterpriseEntity.getBody();
 
-            Entreprise entreprise = entrepriseService.getEntreprise(rating.getEntrepriseId());
+            Enterprise enterprise = enterpriseService.getEnterprise(rating.getEnterpriseId());
 
-            //logger.info("response status code: {} ",entrepriseEntity.getStatusCode());
+            //logger.info("response status code: {} ",enterpriseEntity.getStatusCode());
 
-            //set the entreprise to ratingService
-            rating.setEntreprise(entreprise);
+            //set the enterprise to ratingService
+            rating.setEnterprise(enterprise);
 
             //return the ratingService
             return rating;

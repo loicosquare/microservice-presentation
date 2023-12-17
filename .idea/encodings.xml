@@ -2,20 +2,31 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ApiGateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CategorieService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CategoryService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CloudGateWay/ApiGateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CloudGateWay/ApiGateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CloudGateWay/ServiceRegistry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommandService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CommandeService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConfigServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConfigServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EnterpriseService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EntrepriseService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HotelService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HotelService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LivraisonService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PaiementService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PaymentService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/QuestionService/QuestionService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/QuizService/QuizService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RatingService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RegistryService/ServiceRegistry/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RegistryService/ServiceRegistry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ServiceRegistry/ServiceRegistry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ServiceRegistry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShippingService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/UserService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ocr_old/ApiGateway/ApiGateway/src/main/java" charset="UTF-8" />
   </component>

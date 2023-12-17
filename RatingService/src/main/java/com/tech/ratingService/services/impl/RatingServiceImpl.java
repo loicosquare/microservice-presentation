@@ -16,7 +16,7 @@ public class RatingServiceImpl implements RatingService {
 
     /**
      * @param rating
-     * @return
+     * @return Rating : Created rating
      */
     @Override
     public Rating create(Rating rating) {
@@ -25,6 +25,7 @@ public class RatingServiceImpl implements RatingService {
 
     /**
      * @return
+     * List<Rating> : List of all ratings.
      */
     @Override
     public List<Rating> getRatings() {
@@ -33,7 +34,7 @@ public class RatingServiceImpl implements RatingService {
 
     /**
      * @param userId
-     * @return
+     * @return List<Rating> : List of ratings for a given user id.
      */
     @Override
     public List<Rating> getRatingByUserId(String userId) {
@@ -41,11 +42,20 @@ public class RatingServiceImpl implements RatingService {
     }
 
     /**
-     * @param entrepriseId
-     * @return
+     * @param enterpriseId
+     * @return List<Rating> : List of ratings for a given enterpriseid.
      */
     @Override
-    public List<Rating> getRatingByEntrepriseId(String entrepriseId) {
-        return ratingRepository.findByEntrepriseId(entrepriseId);
+    public List<Rating> getRatingByEnterpriseId(String enterpriseId) {
+        return ratingRepository.findByEnterpriseId(enterpriseId);
+    }
+
+    /**
+     * @param gameId
+     * @return List<Rating> : List of ratings for a given game id.
+     */
+    @Override
+    public List<Rating> getRatingByGameId(String gameId) {
+        return ratingRepository.findByGameId(gameId);
     }
 }
