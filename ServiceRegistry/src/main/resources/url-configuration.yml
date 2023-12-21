@@ -1,0 +1,13 @@
+GAME-SERVICE:
+  api:
+    game:
+      service:
+        port: 8080
+        url: http://localhost:${api.game.service.port}
+
+CATEGORY-SERVICE:
+  api:
+    category:
+      service:
+        port: 8080
+        url: http://localhost:${api.category.service.port}
