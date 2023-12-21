@@ -7,11 +7,17 @@ import com.tech.ServiceRegistry.common.exception.game.GameExistException;
 import com.tech.ServiceRegistry.common.exception.game.GameNotFoundException;
 import com.tech.gameService.entities.Game;
 import com.tech.gameService.services.GameService;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import java.util.List;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import java.net.URI;
+import java.util.Date;
+
+import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 @RequiredArgsConstructor
 @RestController
@@ -45,7 +51,10 @@ public class GameController extends ExceptionHandling {
     public ResponseEntity<HttpResponse<Game>> createGame(@RequestBody Game game) throws GameExistException {
         HttpResponse<Game> createdGame = gameService.createGame(game);
         if (createdGame != null){
-            return ResponseEntity.status(HttpStatus.CREATED).body(createdGame);
+            //return ResponseEntity.status(HttpStatus.CREATED).body(createdGame);
+            return ResponseEntity.created(
+                    URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/games/all").toUriString())
+            ).body(createdGame);
         }else{
             return ResponseEntity.noContent().build();
         }
@@ -68,5 +77,19 @@ public class GameController extends ExceptionHandling {
         }else{
             return ResponseEntity.noContent().build();
         }
+    }
+
+    @RequestMapping("/error")
+    public ResponseEntity<HttpResponse<?>> handleError(HttpServletRequest request) {
+        return new ResponseEntity<>(
+                HttpResponse.builder()
+                        .reason("There is no mapping for a " + request.getMethod() + " request for this path on the server")
+                        .message("There is no mapping for a " + request.getMethod() + " request for this path on the server")
+                        .httpStatus(NOT_FOUND)
+                        .httpStatusCode(NOT_FOUND.value())
+                        .reason(HttpStatus.OK.getReasonPhrase())
+                        .timeStamp(new Date())
+                        .build(), NOT_FOUND
+        );
     }
 }
