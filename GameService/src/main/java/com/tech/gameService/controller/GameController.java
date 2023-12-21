@@ -1,7 +1,10 @@
 package com.tech.gameService.controller;
 
+import com.tech.ServiceRegistry.common.entities.HttpResponse;
 import com.tech.ServiceRegistry.common.exception.ExceptionHandling;
 import com.tech.ServiceRegistry.common.Constant.ConstantUrl;
+import com.tech.ServiceRegistry.common.exception.game.GameExistException;
+import com.tech.ServiceRegistry.common.exception.game.GameNotFoundException;
 import com.tech.gameService.entities.Game;
 import com.tech.gameService.services.GameService;
 import lombok.RequiredArgsConstructor;
@@ -19,9 +22,9 @@ public class GameController extends ExceptionHandling {
     private static final String DELETE_MESSAGE = "Le jeu a été supprimé avec succès.";
 
     @GetMapping(value = {ConstantUrl.GET_ALL_GAME})
-    public ResponseEntity<List<Game>> getAllGames() {
-        List<Game> allGames = gameService.getAllGames();
-        if (allGames != null && !allGames.isEmpty()){
+    public ResponseEntity<HttpResponse<Game>> getAllGames() throws GameNotFoundException {
+        HttpResponse<Game> allGames = gameService.getAllGames();
+        if (allGames != null && !allGames.getGames().isEmpty()){
             return ResponseEntity.status(HttpStatus.OK).body(allGames);
         }else{
             return ResponseEntity.noContent().build();
@@ -29,8 +32,8 @@ public class GameController extends ExceptionHandling {
     }
 
     @GetMapping(value ={ConstantUrl.GET_ONE_GAME})
-    public ResponseEntity<Game> getOneGame(@RequestParam String gameId) {
-        Game foundedGame = gameService.getGameById(gameId);
+    public ResponseEntity<HttpResponse<Game>> getOneGame(@RequestParam String gameId) {
+        HttpResponse<Game> foundedGame = gameService.getGameById(gameId);
         if (foundedGame != null){
             return ResponseEntity.status(HttpStatus.OK).body(foundedGame);
         }else{
@@ -39,8 +42,8 @@ public class GameController extends ExceptionHandling {
     }
 
     @PostMapping(value = {ConstantUrl.CREATE_GAME})
-    public ResponseEntity<Game> createGame(@RequestBody Game game) {
-        Game createdGame = gameService.createGame(game);
+    public ResponseEntity<HttpResponse<Game>> createGame(@RequestBody Game game) throws GameExistException {
+        HttpResponse<Game> createdGame = gameService.createGame(game);
         if (createdGame != null){
             return ResponseEntity.status(HttpStatus.CREATED).body(createdGame);
         }else{
@@ -49,8 +52,8 @@ public class GameController extends ExceptionHandling {
     }
 
     @PostMapping(value = {ConstantUrl.UPDATE_GAME})
-    public ResponseEntity<Game> updateGame(@RequestBody Game game) {
-        Game updatedGame = gameService.updateGame(game);
+    public ResponseEntity<HttpResponse<Game>> updateGame(@RequestBody Game game) throws GameNotFoundException {
+        HttpResponse<Game> updatedGame = gameService.updateGame(game);
         if (updatedGame != null){
             return ResponseEntity.status(HttpStatus.CREATED).body(updatedGame);
         }else{
@@ -59,14 +62,11 @@ public class GameController extends ExceptionHandling {
     }
 
     @DeleteMapping(value = {ConstantUrl.DELETE_GAME})
-    public ResponseEntity<String> deleteGame(@RequestParam String gameId) {
-        boolean isDeleted = Boolean.parseBoolean(gameService.deleteGame(gameId));
-
-        if (isDeleted) {
-            return ResponseEntity.ok(DELETE_MESSAGE);
-        } else {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Impossible de trouver ou de supprimer le jeu avec l'ID : " + gameId);
+    public ResponseEntity<HttpResponse<Game>> deleteGame(@RequestParam String gameId) throws GameNotFoundException {
+        if (gameService.deleteGame(gameId) != null) {
+            return ResponseEntity.status(HttpStatus.OK).body(gameService.deleteGame(gameId));
+        }else{
+            return ResponseEntity.noContent().build();
         }
     }
-
 }

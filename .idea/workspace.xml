@@ -5,61 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cfd5c05-3d39-4129-b061-98b5fe8c8889" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CommandService/OrderService.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnterpriseService/.github/workflows/build.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameService/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/Constant/CategoryImplConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/Constant/ConstantUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/Constant/GameImplConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/UrlApiConfig/UrlApiConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/entities/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/exception/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/exception/category/CategoryAlreadyExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/exception/category/CategoryNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/exception/game/GameExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/exception/game/GameNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/url-configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/url-configuration.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/010268f0588c80f83187abf7d39eb4e82693b5cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/113187de8be40df2ed5aa0e59e45af51f0f40957" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14e7f807a397e963072f3d315a9f29abde88d38b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d0b4a51f0aa68fb9e8158f872010265b4322be4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d94df85619a1e064d71e6f61b5c249cb64d2e76" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/299f8d6432dc2e5adf5001839bdbb014f76362c9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cc6062fab011091aa673fba09578e9fc64dced0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/57ac52cfca0e1d775c3380abbab17d71f54b45e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c7f09da59101f38acb0c4ba14c05133db8940f6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/718fcc0f02dc4e75ed0d64d20205811b1f8e4581" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80bf76611b7f6a18017533965bf236c83c16234f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7188d2513902262bc7311ed1ab92b3c2fc6a8d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a832bf43a676d316838e0a02571cd98beb10295e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa625223ba47971d0b7635bae7b99e32b6381ef5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1132e9fa4d104b722c30fce6fd2743bb2284456" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1132e9fa4d104b722c30fce6fd2743bb2284456" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/1/010268f0588c80f83187abf7d39eb4e82693b5cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/1/113187de8be40df2ed5aa0e59e45af51f0f40957" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/4/14e7f807a397e963072f3d315a9f29abde88d38b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/d/1d0b4a51f0aa68fb9e8158f872010265b4322be4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/d/1d94df85619a1e064d71e6f61b5c249cb64d2e76" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/299f8d6432dc2e5adf5001839bdbb014f76362c9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2cc6062fab011091aa673fba09578e9fc64dced0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/7/57ac52cfca0e1d775c3380abbab17d71f54b45e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/c/5c7f09da59101f38acb0c4ba14c05133db8940f6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/1/718fcc0f02dc4e75ed0d64d20205811b1f8e4581" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/0/80bf76611b7f6a18017533965bf236c83c16234f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/7/a7188d2513902262bc7311ed1ab92b3c2fc6a8d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a832bf43a676d316838e0a02571cd98beb10295e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa625223ba47971d0b7635bae7b99e32b6381ef5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CategoryService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnterpriseService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/entities/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/entities/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/entities/HttpResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +279,7 @@
       <workItem from="1702810905589" duration="2452000" />
       <workItem from="1702813401956" duration="18469000" />
       <workItem from="1703105291655" duration="3847000" />
-      <workItem from="1703152180565" duration="1750000" />
+      <workItem from="1703152180565" duration="9161000" />
     </task>
     <servers />
   </component>
