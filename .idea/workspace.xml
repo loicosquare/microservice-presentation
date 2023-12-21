@@ -7,9 +7,7 @@
     <list default="true" id="7cfd5c05-3d39-4129-b061-98b5fe8c8889" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/entities/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/tech/ServiceRegistry/common/entities/HttpResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +277,7 @@
       <workItem from="1702810905589" duration="2452000" />
       <workItem from="1702813401956" duration="18469000" />
       <workItem from="1703105291655" duration="3847000" />
-      <workItem from="1703152180565" duration="9161000" />
+      <workItem from="1703152180565" duration="9811000" />
     </task>
     <servers />
   </component>
