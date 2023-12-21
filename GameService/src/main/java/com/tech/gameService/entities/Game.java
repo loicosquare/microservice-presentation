@@ -16,8 +16,7 @@ public class Game {
     private String title;
     private String description;
     private LocalDate releaseDate;
-    private String genre; //A voir si le genre va rester compte tenue de la présence de la catégorie dans la table jeu.
-    private String platform; //Pour connaitre sur quelles plateformes (PS5, PS4, PC par exemple).
+    private String platform; //(PS5, PS4, PC).
     private String developer;
     private String publisher;
     //private String ratingId;
