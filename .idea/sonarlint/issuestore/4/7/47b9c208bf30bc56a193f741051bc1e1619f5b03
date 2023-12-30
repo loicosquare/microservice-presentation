@@ -1,0 +1,5 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÄ½[
+k	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â±»Ãùÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ÕÄ‚Âûÿÿÿÿ

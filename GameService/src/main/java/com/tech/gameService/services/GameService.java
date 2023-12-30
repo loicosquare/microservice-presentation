@@ -1,12 +1,10 @@
 package com.tech.gameService.services;
 
-import com.tech.ServiceRegistry.common.entities.HttpResponse;
-import com.tech.ServiceRegistry.common.exception.game.GameExistException;
-import com.tech.ServiceRegistry.common.exception.game.GameNotFoundException;
+import com.tech.gameService.common.entities.HttpResponse;
+import com.tech.gameService.common.exception.game.GameExistException;
+import com.tech.gameService.common.exception.game.GameNotFoundException;
 import com.tech.gameService.entities.Game;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public interface GameService {

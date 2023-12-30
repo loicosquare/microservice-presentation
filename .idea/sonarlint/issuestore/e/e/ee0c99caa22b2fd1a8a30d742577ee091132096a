@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Â’¹™øÿÿÿÿ
+[
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(Ú“Ç¾üÿÿÿÿ
+V	java:S125!"<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ
+H
+java:S11725"-Remove this unused method parameter "userId".(Þ±—‚üÿÿÿÿ
+V	java:S1256"<This block of commented-out lines of code should be removed.(ñë–þÿÿÿÿ

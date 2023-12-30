@@ -1,8 +1,8 @@
 package com.tech.gameService.services.impl;
 
-import com.tech.ServiceRegistry.common.entities.HttpResponse;
-import com.tech.ServiceRegistry.common.exception.game.GameExistException;
-import com.tech.ServiceRegistry.common.exception.game.GameNotFoundException;
+import com.tech.gameService.common.entities.HttpResponse;
+import com.tech.gameService.common.exception.game.GameExistException;
+import com.tech.gameService.common.exception.game.GameNotFoundException;
 import com.tech.gameService.entities.Game;
 import com.tech.gameService.externalEntities.Rating;
 import com.tech.gameService.repository.GameRepository;

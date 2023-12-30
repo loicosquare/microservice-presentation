@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  # Service Spring Boot
+  spring-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"  # Port exposé pour l'application Spring Boot
+    depends_on:
+      - mysql-db  # Dépendance du service MySQL
+
+  # Service MySQL
+  mysql-db:
+    image: mysql:latest
+    ports:
+      - "3306:3306"  # Port MySQL exposé
+    environment:
+      MYSQL_ROOT_PASSWORD:
+      MYSQL_DATABASE: user-service
+      MYSQL_USER: root
+      MYSQL_PASSWORD:

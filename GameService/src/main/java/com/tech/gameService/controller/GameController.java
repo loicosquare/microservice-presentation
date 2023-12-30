@@ -1,13 +1,12 @@
 package com.tech.gameService.controller;
 
-import com.tech.ServiceRegistry.common.entities.HttpResponse;
-import com.tech.ServiceRegistry.common.exception.ExceptionHandling;
-import com.tech.ServiceRegistry.common.Constant.ConstantUrl;
-import com.tech.ServiceRegistry.common.exception.game.GameExistException;
-import com.tech.ServiceRegistry.common.exception.game.GameNotFoundException;
+import com.tech.gameService.common.entities.HttpResponse;
+import com.tech.gameService.common.exception.ExceptionHandling;
+import com.tech.gameService.common.Constant.ConstantUrl;
+import com.tech.gameService.common.exception.game.GameExistException;
+import com.tech.gameService.common.exception.game.GameNotFoundException;
 import com.tech.gameService.entities.Game;
 import com.tech.gameService.services.GameService;
-import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,9 +14,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
-import java.util.Date;
-
-import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 @RequiredArgsConstructor
 @RestController
@@ -62,34 +58,24 @@ public class GameController extends ExceptionHandling {
 
     @PostMapping(value = {ConstantUrl.UPDATE_GAME})
     public ResponseEntity<HttpResponse<Game>> updateGame(@RequestBody Game game) throws GameNotFoundException {
+        ResponseEntity<HttpResponse<Game>> result;
         HttpResponse<Game> updatedGame = gameService.updateGame(game);
         if (updatedGame != null){
-            return ResponseEntity.status(HttpStatus.CREATED).body(updatedGame);
+            result = ResponseEntity.status(HttpStatus.CREATED).body(updatedGame);
         }else{
-            return ResponseEntity.noContent().build();
+            result = ResponseEntity.noContent().build();
         }
+        return result;
     }
 
     @DeleteMapping(value = {ConstantUrl.DELETE_GAME})
     public ResponseEntity<HttpResponse<Game>> deleteGame(@RequestParam String gameId) throws GameNotFoundException {
+        ResponseEntity<HttpResponse<Game>> result;
         if (gameService.deleteGame(gameId) != null) {
-            return ResponseEntity.status(HttpStatus.OK).body(gameService.deleteGame(gameId));
+            result = ResponseEntity.status(HttpStatus.OK).body(gameService.deleteGame(gameId));
         }else{
-            return ResponseEntity.noContent().build();
+            result = ResponseEntity.noContent().build();
         }
-    }
-
-    @RequestMapping("/error")
-    public ResponseEntity<HttpResponse<?>> handleError(HttpServletRequest request) {
-        return new ResponseEntity<>(
-                HttpResponse.builder()
-                        .reason("There is no mapping for a " + request.getMethod() + " request for this path on the server")
-                        .message("There is no mapping for a " + request.getMethod() + " request for this path on the server")
-                        .httpStatus(NOT_FOUND)
-                        .httpStatusCode(NOT_FOUND.value())
-                        .reason(HttpStatus.OK.getReasonPhrase())
-                        .timeStamp(new Date())
-                        .build(), NOT_FOUND
-        );
+        return result;
     }
 }

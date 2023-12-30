@@ -27,6 +27,11 @@ spring:
           predicates:
             - Path=/games/**
 
+        - id: CATEGORY-SERVICE
+          uri: lb://CATEGORY-SERVICE
+          predicates:
+            - Path=/categories/**
+
 
 #Etape 4 de notre fichier contenant le guide des étapes à suivre pour la mise en place de notre microservice
 eureka:
