@@ -1,13 +1,34 @@
+USER-SERVICE:
+  api:
+    user:
+      service:
+        port: 8081
+        url: http://localhost:${api.user.service.port}
+
+ENTERPRISE-SERVICE:
+  api:
+    enterprise:
+      service:
+        port: 8082
+        url: http://localhost:${api.enterprise.service.port}
+
+RATING-SERVICE:
+  api:
+    rating:
+      service:
+        port: 8083
+        url: http://localhost:${api.rating.service.port}
+
 GAME-SERVICE:
   api:
     game:
       service:
-        port: 8080
+        port: 8087
         url: http://localhost:${api.game.service.port}
 
 CATEGORY-SERVICE:
   api:
     category:
       service:
-        port: 8080
+        port: 8086
         url: http://localhost:${api.category.service.port}

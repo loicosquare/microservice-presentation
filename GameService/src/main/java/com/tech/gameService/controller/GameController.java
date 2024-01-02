@@ -13,7 +13,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import java.net.MalformedURLException;
 import java.net.URI;
+import java.util.UUID;
 
 @RequiredArgsConstructor
 @RestController
@@ -21,7 +23,6 @@ import java.net.URI;
 public class GameController extends ExceptionHandling {
 
     private final GameService gameService;
-    private static final String DELETE_MESSAGE = "Le jeu a été supprimé avec succès.";
 
     @GetMapping(value = {ConstantUrl.GET_ALL_GAME})
     public ResponseEntity<HttpResponse<Game>> getAllGames() throws GameNotFoundException {
@@ -44,7 +45,7 @@ public class GameController extends ExceptionHandling {
     }
 
     @PostMapping(value = {ConstantUrl.CREATE_GAME})
-    public ResponseEntity<HttpResponse<Game>> createGame(@RequestBody Game game) throws GameExistException {
+    public ResponseEntity<HttpResponse<Game>> createGame(@RequestBody Game game) throws GameExistException, MalformedURLException {
         HttpResponse<Game> createdGame = gameService.createGame(game);
         if (createdGame != null){
             //return ResponseEntity.status(HttpStatus.CREATED).body(createdGame);

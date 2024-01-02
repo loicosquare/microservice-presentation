@@ -18,6 +18,7 @@ public class Rating {
     private String userId;
     private String enterpriseId;
     private String gameId;
+    private String categoryId;
     private  int rating;
     private  String feedback;
 }

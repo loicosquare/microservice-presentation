@@ -1,0 +1,42 @@
+[
+  {
+    "categoryId": "c7084015-eff3-41a8-a359-cb4fa86f92ff",
+    "categoryName": "Action",
+    "games": []
+  },
+  {
+    "categoryId": "d66e63ea-f288-4ab1-9a57-0faae191bd98",
+    "categoryName": "Adventure",
+    "games": []
+  },
+  {
+    "categoryId": "6453434b-590e-4fbf-a325-4fe6fa2e6ce5",
+    "categoryName": "Puzzle",
+    "games": []
+  },
+  {
+    "categoryId": "3122bc0f-b81e-4f94-8700-2b95eb663dc3",
+    "categoryName": "RPG",
+    "games": []
+  },
+  {
+    "categoryId": "f57a8737-6715-49fd-9d70-fef0cdff81ef",
+    "categoryName": "Strategy",
+    "games": []
+  },
+  {
+    "categoryId": "e9c50098-9a62-403b-aed8-00e7ca399019",
+    "categoryName": "Football",
+    "games": []
+  },
+  {
+    "categoryId": "a32e339f-f72f-46ac-8ff1-efe01cd447bd",
+    "categoryName": "Simulation",
+    "games": []
+  },
+  {
+    "categoryId": "7f0bb8eb-dd44-41bb-90da-e248b3ced2cb",
+    "categoryName": "Courses",
+    "games": []
+  }
+]

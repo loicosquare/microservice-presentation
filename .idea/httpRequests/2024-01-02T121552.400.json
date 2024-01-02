@@ -1,0 +1,7 @@
+{
+  "timeStamp": "01-02-2024 11:15:52",
+  "httpStatusCode": 400,
+  "httpStatus": "BAD_REQUEST",
+  "reason": "BAD REQUEST",
+  "message": "Erreur lors de la création de la catégorie {}.La catégorie Action existe déjà."
+}

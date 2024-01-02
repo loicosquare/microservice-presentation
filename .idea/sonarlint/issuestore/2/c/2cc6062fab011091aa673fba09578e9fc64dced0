@@ -1,28 +1,18 @@
 
-Z	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(ÙŒ÷3
-`	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(ô½õåúÿÿÿÿ
-`	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(ıˆ³óıÿÿÿÿ
-`	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(²â¹šúÿÿÿÿ
-[	java:S112c"FDefine and throw a dedicated exception instead of using a generic one.(ÈıêÒ
-[	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(‡”—é
-\	java:S112‡"FDefine and throw a dedicated exception instead of using a generic one.(ø¡Çş
-b	java:S112š"FDefine and throw a dedicated exception instead of using a generic one.(×éû%8­æ²‡É1
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ¯›ñşÿÿÿÿ
-n
-java:S2139"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
-n
-java:S2139/"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
-n
-java:S2139A"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
-n
-java:S2139P"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
-n
-java:S2139a"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
-n
-java:S2139r"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
-o
-java:S2139…"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
-r
-java:S2159–"VRemove this call to "equals"; comparisons between unrelated types always return false.(Ù©öªÿÿÿÿÿ
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ¯›ñşÿÿÿÿ8Ë„’ÑÌ1
+u
+java:S2139."XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8Ü„’ÑÌ1
+u
+java:S2139C"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8ß„’ÑÌ1
+u
+java:S2139e"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8ã„’ÑÌ1
+u
+java:S2139w"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8å„’ÑÌ1
 v
-java:S2139˜"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8åæ²‡É1
+java:S2139‰"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8æ„’ÑÌ1
+v
+java:S2139œ"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8è„’ÑÌ1
+y
+java:S2159­"VRemove this call to "equals"; comparisons between unrelated types always return false.(Ù©öªÿÿÿÿÿ8è„’ÑÌ1
+v
+java:S2139¯"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8é„’ÑÌ1

@@ -13,6 +13,7 @@ public class ConstantUrl {
         public static final String UPDATE_GAME = "/update/{gameId}";
         public static final String DELETE_GAME = "/delete/{gameId}";
         public static final String CREATE_GAME = "/create";
+        public static final String TEMP_IMAGE_BASE_URL = "https://robohash.org/";
     /* End URL Related to Games. */
 
     /* Start URL Related to categories. */

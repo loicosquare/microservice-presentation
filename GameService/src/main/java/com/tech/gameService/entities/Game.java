@@ -1,9 +1,14 @@
 package com.tech.gameService.entities;
 
+import com.tech.gameService.externalEntities.Rating;
 import lombok.*;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 @Getter
 @Setter
@@ -12,6 +17,8 @@ import java.time.LocalDate;
 @Document("games")
 @Builder
 public class Game {
+    @Id
+    @NonNull
     private String gameId;
     private String title;
     private String description;
@@ -23,6 +30,8 @@ public class Game {
     private double price;
     private int gameLength;
     private String imageUrl;
-    private String enterpriseId; // Référence à l'enterprise qui a créé le jeu.
-    private int categoryId; // Référence à la catégorie à laquelle appartient le jeu.
+    private String enterpriseId; // Référence à l'entreprise qui a créé le jeu.
+    private String categoryId; // Référence à la catégorie à laquelle appartient le jeu.
+    //@Transient //not to be stored in db
+    private List<Rating> ratings=new ArrayList<>();
 }

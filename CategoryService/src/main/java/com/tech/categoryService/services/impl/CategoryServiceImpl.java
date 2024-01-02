@@ -1,5 +1,9 @@
 package com.tech.categoryService.services.impl;
 
+import com.tech.categoryService.common.exception.category.CategoryAlreadyExistException;
+import com.tech.categoryService.common.exception.category.CategoryNotFoundException;
+import com.tech.categoryService.common.exception.game.GameExistException;
+import com.tech.categoryService.common.exception.game.GameNotFoundException;
 import com.tech.categoryService.entities.Category;
 import com.tech.categoryService.external.entities.Game;
 import com.tech.categoryService.repository.CategoryRepository;
@@ -9,7 +13,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import java.net.URL;
 import java.util.List;
+import java.util.UUID;
+
+import static com.tech.categoryService.common.Constant.ConstantUrl.TEMP_IMAGE_BASE_URL;
 
 @Service
 @RequiredArgsConstructor
@@ -23,14 +31,21 @@ public class CategoryServiceImpl implements CategoryService {
      *
      * @param category La catégorie à créer.
      * @return La catégorie créée.
+     * @throws CategoryAlreadyExistException si une catégorie est trouvée.
      */
     @Override
-    public Category createCategory(Category category) {
+    public Category createCategory(Category category) throws CategoryAlreadyExistException {
         try {
+            Category existingCategory = categoryRepository.findByCategoryName(category.getCategoryName());
+            if (existingCategory != null) {
+                throw new CategoryAlreadyExistException("La catégorie " + category.getCategoryName() + " existe déjà.");
+            }else{
+                category.setImageUrl(String.valueOf(new URL(TEMP_IMAGE_BASE_URL + category.getCategoryName().trim())));
+            }
             return categoryRepository.save(category);
         } catch (Exception e) {
             logger.error("Erreur lors de la création de la catégorie : {}", e.getMessage());
-            throw new RuntimeException("Erreur lors de la création de la catégorie.", e);
+            throw new CategoryAlreadyExistException("Erreur lors de la création de la catégorie {}." + e.getMessage());
         }
     }
 
@@ -39,14 +54,19 @@ public class CategoryServiceImpl implements CategoryService {
      *
      * @param category La catégorie à mettre à jour.
      * @return La catégorie mise à jour.
+     * @throws CategoryNotFoundException si aucune catégorie n'est trouvée.
      */
     @Override
-    public Category updateCategory(Category category) {
+    public Category updateCategory(Category category) throws CategoryNotFoundException {
         try {
+            Category existingCategory = categoryRepository.findByCategoryName(category.getCategoryName());
+            if (existingCategory != null) {
+                throw new CategoryAlreadyExistException("La catégorie " + category.getCategoryName() + " existe déjà.");
+            }
             return categoryRepository.save(category);
         } catch (Exception e) {
             logger.error("Erreur lors de la mise à jour de la catégorie : {}", e.getMessage());
-            throw new RuntimeException("Erreur lors de la mise à jour de la catégorie.", e);
+            throw new CategoryNotFoundException("Erreur lors de la mise à jour de la catégorie {}."+ e.getMessage());
         }
     }
 
@@ -55,31 +75,32 @@ public class CategoryServiceImpl implements CategoryService {
      *
      * @param categoryId L'ID de la catégorie.
      * @return La catégorie correspondant à l'ID spécifié.
-     * @throws RuntimeException si aucune catégorie n'est trouvée.
+     * @throws CategoryNotFoundException si aucune catégorie n'est trouvée.
      */
     @Override
-    public Category getCategoryById(int categoryId) {
+    public Category getCategoryById(String categoryId) throws CategoryNotFoundException {
         try {
             return categoryRepository.findById(categoryId)
-                    .orElseThrow(() -> new RuntimeException("Catégorie introuvable avec l'ID : " + categoryId));
+                    .orElseThrow(() -> new CategoryNotFoundException("Catégorie introuvable avec l'ID : " + categoryId));
         } catch (Exception e) {
-            logger.error("Erreur lors de la récupération de la catégorie par ID : {}", e.getMessage());
-            throw new RuntimeException("Erreur lors de la récupération de la catégorie par ID.", e);
+            logger.error("Erreur lors de la récupération de la catégorie par ID {}", e.getMessage());
+            throw new CategoryNotFoundException("Erreur lors de la récupération de la catégorie par l'ID {}."+ categoryId);
         }
     }
 
     /**
      * Obtient toutes les catégories.
      *
-     * @return La liste de toutes les catégories.
+     * @return List<Category> La liste de toutes les catégories.
+     * @throws CategoryNotFoundException si aucune catégorie n'est trouvée.
      */
     @Override
-    public List<Category> getAllCategories() {
+    public List<Category> getAllCategories() throws CategoryNotFoundException {
         try {
             return categoryRepository.findAll();
         } catch (Exception e) {
             logger.error("Erreur lors de la récupération de toutes les catégories : {}", e.getMessage());
-            throw new RuntimeException("Erreur lors de la récupération de toutes les catégories.", e);
+            throw new CategoryNotFoundException("Erreur lors de la récupération de toutes les catégories {}."+ e.getMessage());
         }
     }
 
@@ -88,15 +109,16 @@ public class CategoryServiceImpl implements CategoryService {
      *
      * @param categoryId L'ID de la catégorie à supprimer.
      * @return Un message indiquant que la catégorie a été supprimée avec succès.
+     * @throws CategoryNotFoundException si aucune catégorie n'est trouvée.
      */
     @Override
-    public String deleteCategoryById(int categoryId) {
+    public String deleteCategoryById(String categoryId) throws CategoryNotFoundException {
         try {
             categoryRepository.deleteById(categoryId);
             return "La catégorie avec l'ID : " + categoryId + " a été supprimée avec succès.";
         } catch (Exception e) {
             logger.error("Erreur lors de la suppression de la catégorie : {}", e.getMessage());
-            throw new RuntimeException("Erreur lors de la suppression de la catégorie.", e);
+            throw new CategoryNotFoundException("Erreur lors de la suppression de la catégorie {}."+ e.getMessage());
         }
     }
 
@@ -104,16 +126,17 @@ public class CategoryServiceImpl implements CategoryService {
      * Obtient la liste des jeux associés à une catégorie par son ID.
      *
      * @param categoryId L'ID de la catégorie.
-     * @return La liste des jeux associés à la catégorie.
+     * @return List<Game> La liste des jeux associés à la catégorie.
+     * @throws GameNotFoundException si aucun Game n'est trouvé.
      */
     @Override
-    public List<Game> getGamesByCategoryId(int categoryId) {
+    public List<Game> getGamesByCategoryId(String categoryId) throws GameNotFoundException {
         try {
             Category category = getCategoryById(categoryId);
             return category.getGames();
         } catch (Exception e) {
             logger.error("Erreur lors de la récupération des jeux de la catégorie : {}", e.getMessage());
-            throw new RuntimeException("Erreur lors de la récupération des jeux de la catégorie.", e);
+            throw new GameNotFoundException("Erreur lors de la récupération des jeux de la catégorie."+ e.getMessage());
         }
     }
 
@@ -121,18 +144,18 @@ public class CategoryServiceImpl implements CategoryService {
      * Ajoute un jeu à une catégorie spécifiée.
      *
      * @param categoryId L'ID de la catégorie.
-     * @param game       Le jeu à ajouter.
+     * @param game Le jeu à ajouter.
      * @return La catégorie avec le jeu ajouté.
      */
     @Override
-    public Category addGameToCategory(int categoryId, Game game) {
+    public Category addGameToCategory(String categoryId, Game game) throws GameExistException {
         try {
             Category category = getCategoryById(categoryId);
             category.getGames().add(game);
             return categoryRepository.save(category);
         } catch (Exception e) {
             logger.error("Erreur lors de l'ajout du jeu à la catégorie : {}", e.getMessage());
-            throw new RuntimeException("Erreur lors de l'ajout du jeu à la catégorie.", e);
+            throw new GameExistException("Erreur lors de l'ajout du jeu à la catégorie {}." + e.getMessage());
         }
     }
 
@@ -141,17 +164,17 @@ public class CategoryServiceImpl implements CategoryService {
      *
      * @param categoryId L'ID de la catégorie.
      * @param gameId     L'ID du jeu à supprimer.
-     * @return La catégorie mise à jour après la suppression du jeu.
+     * @return Category : La catégorie mise à jour après la suppression du jeu.
      */
     @Override
-    public Category removeGameFromCategory(int categoryId, int gameId) {
+    public Category removeGameFromCategory(String categoryId, UUID gameId) throws CategoryNotFoundException {
         try {
             Category category = getCategoryById(categoryId);
             category.getGames().removeIf(game -> game.getGameId().equals(gameId));
             return categoryRepository.save(category);
         } catch (Exception e) {
             logger.error("Erreur lors de la suppression du jeu de la catégorie : {}", e.getMessage());
-            throw new RuntimeException("Erreur lors de la suppression du jeu de la catégorie.", e);
+            throw new CategoryNotFoundException("Erreur lors de la suppression du jeu de la catégorie."+ e);
         }
     }
 }

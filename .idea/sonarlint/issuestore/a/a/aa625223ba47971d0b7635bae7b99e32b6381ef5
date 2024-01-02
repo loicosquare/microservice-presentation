@@ -1,5 +1,11 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û…ÅÊ
-H
-java:S1135["2Complete the task associated to this TODO comment.(óƒ½ˆ
-?	java:S108½")Either remove or fill this block of code.(å˜üå
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û…ÅÊ8ìşÿÓÌ1
+v
+java:S3655†"XCall "optionalGame.isPresent()" or "!optionalGame.isEmpty()" before accessing the value.(ªôÕÿ8ışÿÓÌ1
+O
+java:S1135^"2Complete the task associated to this TODO comment.(óƒ½ˆ8‡ÿÿÓÌ1
+t
+java:S2159‚"VRemove this call to "equals"; comparisons between unrelated types always return false.(é­8ŞÖšÖÌ1
+Y	java:S125¼"<This block of commented-out lines of code should be removed.(›©öá8ŒÿÿÓÌ1
+P
+java:S1135¾"2Complete the task associated to this TODO comment.(Ã÷İÛ8ŒÿÿÓÌ1

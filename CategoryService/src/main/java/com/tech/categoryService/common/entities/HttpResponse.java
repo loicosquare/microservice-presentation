@@ -24,5 +24,5 @@ public class HttpResponse<T> implements Serializable {
     protected HttpStatus httpStatus;
     protected String reason;
     protected String message;
-    protected Collection<? extends T> games;
+    protected Collection<? extends T> categories;
 }

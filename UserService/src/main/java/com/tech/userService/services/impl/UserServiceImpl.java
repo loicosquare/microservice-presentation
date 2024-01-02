@@ -16,6 +16,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.UUID;
 
 
 @RequiredArgsConstructor
@@ -32,11 +33,17 @@ public class UserServiceImpl implements UserService {
 
     /**
      * @param user
-     * @return
+     * @return User
      */
     @Override
     public User saveUser(User user) {
-        return userRepository.save(user);
+        User user1 = User.builder()
+                .userId(UUID.randomUUID().toString())
+                .name(user.getName())
+                .email(user.getEmail())
+                .about(user.getAbout())
+                .build();
+        return userRepository.save(user1);
     }
 
     /**
@@ -72,7 +79,7 @@ public class UserServiceImpl implements UserService {
 
     /**
      * @param userId
-     * @return
+     * @return User
      */
     @Override
     public User getUser(String userId) {

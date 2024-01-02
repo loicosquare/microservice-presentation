@@ -12,15 +12,25 @@ spring:
           predicates:
             - Path=/users/**
 
-        - id: HOTEL-SERVICE
-          uri: lb://HOTEL-SERVICE
+        - id: ENTERPRISE-SERVICE
+          uri: lb://ENTERPRISE-SERVICE
           predicates:
-            - Path=/hotels/**,/staffs/**,/staffs/**
+            - Path=/enterprises/**,/staffs/**,/staffs/**
 
         - id: RATING-SERVICE
           uri: lb://RATING-SERVICE
           predicates:
             - Path=/ratings/**
+
+        - id: GAME-SERVICE
+          uri: lb://GAME-SERVICE
+          predicates:
+            - Path=/games/**
+
+        - id: CATEGORY-SERVICE
+          uri: lb://CATEGORY-SERVICE
+          predicates:
+            - Path=/categories/**
 
 
 #Etape 4 de notre fichier contenant le guide des étapes à suivre pour la mise en place de notre microservice
