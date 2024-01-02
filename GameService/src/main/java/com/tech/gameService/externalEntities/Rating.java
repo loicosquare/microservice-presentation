@@ -2,8 +2,6 @@ package com.tech.gameService.externalEntities;
 
 import lombok.*;
 
-import java.util.UUID;
-
 @Getter
 @Setter
 @AllArgsConstructor

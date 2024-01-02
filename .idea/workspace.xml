@@ -5,40 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cfd5c05-3d39-4129-b061-98b5fe8c8889" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/185059a37331972f7297f4c350dfb69c35337535" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/185059a37331972f7297f4c350dfb69c35337535" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/299f8d6432dc2e5adf5001839bdbb014f76362c9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/299f8d6432dc2e5adf5001839bdbb014f76362c9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cc6062fab011091aa673fba09578e9fc64dced0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cc6062fab011091aa673fba09578e9fc64dced0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82160f4381f43d811b4ec3fdbce7033276ee5a68" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82160f4381f43d811b4ec3fdbce7033276ee5a68" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa625223ba47971d0b7635bae7b99e32b6381ef5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa625223ba47971d0b7635bae7b99e32b6381ef5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/Constant/CategoryImplConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/Constant/CategoryImplConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/Constant/ConstantUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/Constant/ConstantUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/Constant/GameImplConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/Constant/GameImplConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/UrlApiConfig/UrlApiConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/UrlApiConfig/UrlApiConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/entities/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/common/entities/HttpResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/entities/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/repository/CategoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/services/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/services/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/services/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/java/com/tech/categoryService/services/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CategoryService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/common/Constant/ConstantUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/common/Constant/ConstantUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/controller/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/entities/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/externalEntities/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/externalEntities/Rating.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/repository/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/repository/GameRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameService/src/main/java/com/tech/gameService/services/impl/GameServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/entities/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/entities/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/services/impl/RatingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/tech/ratingService/services/impl/RatingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/url-configuration.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/url-configuration.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/common/UrlApiConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/common/UrlApiConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/tech/userService/services/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +248,7 @@
       <workItem from="1703105291655" duration="3847000" />
       <workItem from="1703152180565" duration="15581000" />
       <workItem from="1703175018257" duration="3366000" />
-      <workItem from="1703237142357" duration="40487000" />
+      <workItem from="1703237142357" duration="40975000" />
     </task>
     <servers />
   </component>

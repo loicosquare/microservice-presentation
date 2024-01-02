@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 
 import java.net.URL;
 import java.util.List;
-import java.util.UUID;
 
 import static com.tech.categoryService.common.Constant.ConstantUrl.TEMP_IMAGE_BASE_URL;
 
@@ -167,7 +166,7 @@ public class CategoryServiceImpl implements CategoryService {
      * @return Category : La catégorie mise à jour après la suppression du jeu.
      */
     @Override
-    public Category removeGameFromCategory(String categoryId, UUID gameId) throws CategoryNotFoundException {
+    public Category removeGameFromCategory(String categoryId, String gameId) throws CategoryNotFoundException {
         try {
             Category category = getCategoryById(categoryId);
             category.getGames().removeIf(game -> game.getGameId().equals(gameId));

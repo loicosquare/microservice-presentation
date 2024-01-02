@@ -15,7 +15,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.UUID;
 
 @RequiredArgsConstructor
 @RestController
@@ -68,7 +67,7 @@ public class CategoryController extends ExceptionHandling {
     }
 
     @DeleteMapping("/{categoryId}/games/{gameId}")
-    public ResponseEntity<Category> removeGameFromCategory(@PathVariable String categoryId, @PathVariable UUID gameId) throws CategoryNotFoundException {
+    public ResponseEntity<Category> removeGameFromCategory(@PathVariable String categoryId, @PathVariable String gameId) throws CategoryNotFoundException {
         Category category = categoryService.removeGameFromCategory(categoryId, gameId);
         return new ResponseEntity<>(category, HttpStatus.OK);
     }

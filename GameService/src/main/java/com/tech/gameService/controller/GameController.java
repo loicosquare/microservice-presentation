@@ -15,7 +15,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.MalformedURLException;
 import java.net.URI;
-import java.util.UUID;
 
 @RequiredArgsConstructor
 @RestController

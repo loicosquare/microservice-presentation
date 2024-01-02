@@ -9,7 +9,6 @@ import com.tech.categoryService.external.entities.Game;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public interface CategoryService {
@@ -20,5 +19,5 @@ public interface CategoryService {
     String deleteCategoryById(String categoryId) throws CategoryNotFoundException;
     List<Game> getGamesByCategoryId(String categoryId) throws GameNotFoundException;
     Category addGameToCategory(String categoryId, Game game) throws GameExistException;
-    Category removeGameFromCategory(String categoryId, UUID gameId) throws CategoryNotFoundException;
+    Category removeGameFromCategory(String categoryId, String gameId) throws CategoryNotFoundException;
 }

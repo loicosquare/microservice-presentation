@@ -7,7 +7,6 @@ import com.tech.gameService.entities.Game;
 import org.springframework.stereotype.Service;
 
 import java.net.MalformedURLException;
-import java.util.UUID;
 
 @Service
 public interface GameService {
