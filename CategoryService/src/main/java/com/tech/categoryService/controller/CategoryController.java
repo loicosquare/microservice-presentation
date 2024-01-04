@@ -37,7 +37,7 @@ public class CategoryController extends ExceptionHandling {
     }
 
     @GetMapping(value = ConstantUrl.GET_ONE_CATEGORY)
-    public ResponseEntity<Category> getCategoryById(@PathVariable String categoryId) throws CategoryNotFoundException {
+    public ResponseEntity<Category> getCategoryById(@PathVariable String categoryId) throws CategoryNotFoundException, GameNotFoundException {
         Category category = categoryService.getCategoryById(categoryId);
         return new ResponseEntity<>(category, HttpStatus.OK);
     }

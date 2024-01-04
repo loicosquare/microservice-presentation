@@ -1,16 +1,23 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ¯›ñşÿÿÿÿ8Ë„’ÑÌ1
-u
-java:S2139-"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8¬Ó×Ì1
-u
-java:S2139B"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8¬Ó×Ì1
-u
-java:S2139d"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8¬Ó×Ì1
-u
-java:S2139v"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8¬Ó×Ì1
-v
-java:S2139ˆ"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8‘¬Ó×Ì1
-v
-java:S2139›"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8’¬Ó×Ì1
-v
-java:S2139®"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8“¬Ó×Ì1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ¯›ñşÿÿÿÿ
+n
+java:S21393"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+n
+java:S2139H"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+W
+java:S3457`"AFormat specifiers should be used instead of string concatenation.(ıµ¡Ã
+Q	java:S125b"<This block of commented-out lines of code should be removed.(ƒ¾¦
+o
+java:S2139Œ"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+o
+java:S2139"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+o
+java:S2139°"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+o
+java:S2139Ã"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+o
+java:S2139Ö"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8õğùıÌ1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8õğùıÌ1

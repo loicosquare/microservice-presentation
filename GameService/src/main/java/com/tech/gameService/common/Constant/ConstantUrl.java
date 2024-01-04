@@ -2,7 +2,7 @@ package com.tech.gameService.common.Constant;
 
 public class ConstantUrl {
 
-    public ConstantUrl(){
+    private ConstantUrl(){
 
     }
 

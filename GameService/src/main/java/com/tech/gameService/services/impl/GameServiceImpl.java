@@ -196,15 +196,14 @@ public class GameServiceImpl implements GameService {
         );
         Rating[] ratings = response.getBody();
 
-
-
         try {
             if (ratings != null) {
                 logger.info("All the Ratings are fetched from the database");
                 for (Game game : games) {
                     for (Rating rating : ratings) {
                         if (rating.getGameId().equals(game.getGameId())) {
-                            game.setRatings(Collections.singletonList(rating)); //car
+                            //game.setRatings(Collections.singletonList(rating));
+                            game.setRatings(List.of(rating));
                         }
                     }
                 }

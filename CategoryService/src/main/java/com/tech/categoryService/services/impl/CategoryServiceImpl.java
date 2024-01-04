@@ -1,19 +1,24 @@
 package com.tech.categoryService.services.impl;
 
+import com.tech.categoryService.common.entities.HttpResponse;
 import com.tech.categoryService.common.exception.category.CategoryAlreadyExistException;
 import com.tech.categoryService.common.exception.category.CategoryNotFoundException;
 import com.tech.categoryService.common.exception.game.GameExistException;
 import com.tech.categoryService.common.exception.game.GameNotFoundException;
 import com.tech.categoryService.entities.Category;
 import com.tech.categoryService.external.entities.Game;
+import com.tech.categoryService.external.services.GameService;
 import com.tech.categoryService.repository.CategoryRepository;
 import com.tech.categoryService.services.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.net.URL;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static com.tech.categoryService.common.Constant.ConstantUrl.TEMP_IMAGE_BASE_URL;
@@ -24,6 +29,7 @@ public class CategoryServiceImpl implements CategoryService {
 
     private static final Logger logger = LoggerFactory.getLogger(CategoryServiceImpl.class);
     private final CategoryRepository categoryRepository;
+    private final GameService gameService;
 
     /**
      * Crée une nouvelle catégorie.
@@ -77,10 +83,25 @@ public class CategoryServiceImpl implements CategoryService {
      * @throws CategoryNotFoundException si aucune catégorie n'est trouvée.
      */
     @Override
-    public Category getCategoryById(String categoryId) throws CategoryNotFoundException {
+    public Category getCategoryById(String categoryId) throws CategoryNotFoundException, GameNotFoundException {
         try {
-            return categoryRepository.findById(categoryId)
+            Category category = categoryRepository.findById(categoryId)
                     .orElseThrow(() -> new CategoryNotFoundException("Catégorie introuvable avec l'ID : " + categoryId));
+            logger.info("Category : {}",  category);
+
+            ResponseEntity<HttpResponse<Game>> gamesEntity = gameService.getAllGames();
+            HttpResponse<Game> response = gamesEntity.getBody();
+            logger.info("Game : {}", response);
+            if(response != null) {
+                logger.info("Game : " + response.getCategories());
+                for (Game game : response.getCategories()) { // En principe getCategories retourne les games car c'est juste le nom générique utilisés dans le HttpResponse de CATEGORIE-SERVICE
+                    if(game.getCategoryId().equals(category.getCategoryId())) { //Je n'utilise pas categoryId passé en param pour etre sure d'utilise ce qu'on a fetch by id;
+                        category.setGames(List.of(game)); // je n'utilise par SilgeltonList car on peut avoir plusieurs jeux dans la categorie.
+                    }
+                }
+            }
+            logger.info("Category with games : {}", category);
+            return category;
         } catch (Exception e) {
             logger.error("Erreur lors de la récupération de la catégorie par ID {}", e.getMessage());
             throw new CategoryNotFoundException("Erreur lors de la récupération de la catégorie par l'ID {}."+ categoryId);
@@ -96,7 +117,26 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public List<Category> getAllCategories() throws CategoryNotFoundException {
         try {
-            return categoryRepository.findAll();
+            List<Category> categories = categoryRepository.findAll().stream()
+                    .filter(category -> category.getCategoryName() != null)
+                    .toList();
+            logger.info("Categories : {}",  categories);
+
+            ResponseEntity<HttpResponse<Game>> gamesEntity = gameService.getAllGames();
+            HttpResponse<Game> response = gamesEntity.getBody();
+            logger.info("Game : {}", response);
+            if(response != null) {
+                logger.info("Game {} : ", response.getCategories());
+                for (Game game : response.getCategories()) { // En principe getCategories retourne les games car c'est juste le nom générique utilisés dans le HttpResponse de CATEGORIE-SERVICE
+                    for(Category category : categories){
+                        if(game.getCategoryId().equals(category.getCategoryId())) {
+                            category.setGames(List.of(game));
+                        }
+                    }
+                }
+            }
+            logger.info("Categories with games : {}", categories);
+            return categories;
         } catch (Exception e) {
             logger.error("Erreur lors de la récupération de toutes les catégories : {}", e.getMessage());
             throw new CategoryNotFoundException("Erreur lors de la récupération de toutes les catégories {}."+ e.getMessage());

@@ -14,7 +14,7 @@ import java.util.List;
 public interface CategoryService {
     Category createCategory(Category category) throws CategoryAlreadyExistException;
     Category updateCategory(Category category) throws CategoryNotFoundException;
-    Category getCategoryById(String categoryId) throws CategoryNotFoundException;
+    Category getCategoryById(String categoryId) throws CategoryNotFoundException, GameNotFoundException;
     List<Category> getAllCategories() throws CategoryNotFoundException;
     String deleteCategoryById(String categoryId) throws CategoryNotFoundException;
     List<Game> getGamesByCategoryId(String categoryId) throws GameNotFoundException;

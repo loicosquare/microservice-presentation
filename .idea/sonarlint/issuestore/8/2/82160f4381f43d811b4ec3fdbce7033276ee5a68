@@ -1,6 +1,6 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìåá‚8ÅÀµİË1
-N
-java:S1135b"2Complete the task associated to this TODO comment.(«éí%8ÙÀµİË1
-]	java:S125k"<This block of commented-out lines of code should be removed.(òêˆ—şÿÿÿÿ8ßÀµİË1
-X	java:S125p"<This block of commented-out lines of code should be removed.(¼µÖİ8áÀµİË1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìåá‚
+G
+java:S1135b"2Complete the task associated to this TODO comment.(«éí%
+V	java:S125k"<This block of commented-out lines of code should be removed.(òêˆ—şÿÿÿÿ
+Q	java:S125p"<This block of commented-out lines of code should be removed.(¼µÖİ

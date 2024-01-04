@@ -1,0 +1,4 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ôî1
+s
+java:S1128"QRemove this unused import 'com.tech.categoryService.common.Constant.ConstantUrl'.(Œ¥¼»şÿÿÿÿ8‡òııÌ1
