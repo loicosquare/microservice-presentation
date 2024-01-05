@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient(name = "GAME-SERVICE")
+@FeignClient(name = "GAME-SERVICE", url="http://localhost:8087")
 public interface GameService {
     //@GetMapping(value = {ConstantUrl.GAMES + ConstantUrl.GET_ALL_GAME})
     @GetMapping(value = "/games/all")

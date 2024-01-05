@@ -1,0 +1,13 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒ“áóýÿÿÿÿ
+H
+java:S6856$"2Bind path variable "gameId" to a method parameter.(ÞêÉ¸
+H
+java:S6856;"2Bind path variable "gameId" to a method parameter.(ÁÐø«
+H
+java:S6856G"2Bind path variable "gameId" to a method parameter.(¾ßÝ³
+V
+java:S4684/"@Replace this persistent entity with a simple POJO or DTO object.(åñÖÁ
+V	java:S1252"<This block of commented-out lines of code should be removed.(¸µ¯Èúÿÿÿÿ
+V
+java:S4684<"@Replace this persistent entity with a simple POJO or DTO object.(ÆøÌæ

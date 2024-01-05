@@ -13,8 +13,10 @@ import com.tech.categoryService.services.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 import java.net.URL;
 import java.util.Arrays;
@@ -30,6 +32,7 @@ public class CategoryServiceImpl implements CategoryService {
     private static final Logger logger = LoggerFactory.getLogger(CategoryServiceImpl.class);
     private final CategoryRepository categoryRepository;
     private final GameService gameService;
+    private final RestTemplate restTemplate;
 
     /**
      * Crée une nouvelle catégorie.
@@ -122,12 +125,22 @@ public class CategoryServiceImpl implements CategoryService {
                     .toList();
             logger.info("Categories : {}",  categories);
 
-            ResponseEntity<HttpResponse<Game>> gamesEntity = gameService.getAllGames();
+            /*ResponseEntity<HttpResponse<Game>> gamesEntity = gameService.getAllGames();
             HttpResponse<Game> response = gamesEntity.getBody();
+            logger.info("Game : {}", response);*/
+
+            ResponseEntity<Game[]> response = restTemplate.exchange(
+                    "http://GAME-SERVICE/games/all/",
+                    HttpMethod.GET,
+                    null,
+                    Game[].class
+            );
+            Game[] games = response.getBody();
             logger.info("Game : {}", response);
-            if(response != null) {
-                logger.info("Game {} : ", response.getCategories());
-                for (Game game : response.getCategories()) { // En principe getCategories retourne les games car c'est juste le nom générique utilisés dans le HttpResponse de CATEGORIE-SERVICE
+
+            if(games != null) {
+                //logger.info("Game {} : ", response);
+                for (Game game : games) { // En principe getCategories retourne les games car c'est juste le nom générique utilisés dans le HttpResponse de CATEGORIE-SERVICE
                     for(Category category : categories){
                         if(game.getCategoryId().equals(category.getCategoryId())) {
                             category.setGames(List.of(game));
