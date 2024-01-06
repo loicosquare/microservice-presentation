@@ -26,3 +26,7 @@
   margin-left: 250px;
   padding: 20px;
 }
+
+.list-group-item.active {
+  background-color: #1976d2;
+}

@@ -33,3 +33,7 @@ q
 Asrc/main/java/com/tech/enterpriseService/entities/Enterprise.java,0\1\01049d4f66137a4f959b5257f8dc4490c5ca544d
 m
 =src/main/java/com/tech/categoryService/entities/Category.java,a\8\a832bf43a676d316838e0a02571cd98beb10295e
+l
+<src/main/java/com/tech/apiGateway/ApiGatewayApplication.java,d\8\d8fb76b3b193de371a0ab76e01163aa7acd45d63
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

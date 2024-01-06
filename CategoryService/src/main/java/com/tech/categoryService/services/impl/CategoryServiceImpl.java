@@ -129,7 +129,7 @@ public class CategoryServiceImpl implements CategoryService {
             HttpResponse<Game> response = gamesEntity.getBody();
             logger.info("Game : {}", response);*/
 
-            ResponseEntity<Game[]> response = restTemplate.exchange(
+            /*ResponseEntity<Game[]> response = restTemplate.exchange(
                     "http://GAME-SERVICE/games/all/",
                     HttpMethod.GET,
                     null,
@@ -147,7 +147,7 @@ public class CategoryServiceImpl implements CategoryService {
                         }
                     }
                 }
-            }
+            }*/
             logger.info("Categories with games : {}", categories);
             return categories;
         } catch (Exception e) {
