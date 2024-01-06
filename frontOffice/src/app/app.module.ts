@@ -9,6 +9,8 @@ import { UsersComponent } from './pages/users/users.component';
 import { EnterprisesComponent } from './pages/enterprises/enterprises.component';
 import { GamesComponent } from './pages/games/games.component';
 import {HttpClientModule} from "@angular/common/http";
+import {NotificationModule} from "./notification.module";
+import {NotificationService} from "./services/notification.service";
 
 @NgModule({
   declarations: [
@@ -22,9 +24,10 @@ import {HttpClientModule} from "@angular/common/http";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NotificationModule
   ],
-  providers: [],
+  providers: [NotificationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
