@@ -16,6 +16,7 @@
 
 .list-group-item:hover {
   background-color: #555;
+  cursor: pointer;
 }
 
 .nav-link {

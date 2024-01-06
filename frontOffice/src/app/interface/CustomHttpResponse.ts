@@ -10,5 +10,6 @@ export interface CustomHttpResponse {
   status: string;
   message: string;
   reason: string;
-  data?: Category[] | Game[] | Enterprise[] | User[] | Category | Game | Enterprise | User | Rating[] | string;
+  //data?: Category[] | Game[] | Enterprise[] | User[] | Category | Game | Enterprise | User | Rating[] | string | null;
+  data?: any;
 }

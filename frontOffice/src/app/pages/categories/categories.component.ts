@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {CategoryService} from "../../services/category.service";
 import {CustomHttpResponse} from "../../interface/CustomHttpResponse";
 import {HttpErrorResponse} from "@angular/common/http";
+import {Category} from "../../interface/category";
 
 @Component({
   selector: 'app-categories',
@@ -10,20 +11,28 @@ import {HttpErrorResponse} from "@angular/common/http";
 })
 export class CategoriesComponent implements OnInit{
 
+  public categories! : any;
+
   constructor(private categoryService: CategoryService) {
   }
 
   ngOnInit() {
+    this.getCategories();
+  }
+
+  private getCategories(): void {
     this.categoryService.categories$.subscribe(
-      next => (response : CustomHttpResponse) => {
-        console.log(response);
+      (response: CustomHttpResponse) => {
+        this.categories = response;
+        console.log(this.categories);
       },
-      error => (error : HttpErrorResponse) => {
+      (error: HttpErrorResponse) => {
         console.log(error);
       },
-       () => {
+      () => {
         console.log('Completed');
       }
     );
   }
+
 }
