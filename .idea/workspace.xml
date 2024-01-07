@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cfd5c05-3d39-4129-b061-98b5fe8c8889" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontOffice/src/app/enum/notification-type.enum.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontOffice/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontOffice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseService/src/main/java/com/tech/enterpriseService/controller/EnterpriseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseService/src/main/java/com/tech/enterpriseService/controller/EnterpriseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontOffice/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontOffice/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontOffice/src/app/pages/categories/categories.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/pages/categories/categories.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontOffice/src/app/pages/categories/categories.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/pages/categories/categories.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontOffice/src/app/pages/categories/categories.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/pages/categories/categories.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontOffice/src/app/pages/sidebar-menu/sidebar-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/pages/sidebar-menu/sidebar-menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontOffice/src/app/services/helper.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/services/helper.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontOffice/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontOffice/src/app/pages/enterprises/enterprises.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/pages/enterprises/enterprises.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontOffice/src/app/pages/enterprises/enterprises.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/pages/enterprises/enterprises.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontOffice/src/app/pages/enterprises/enterprises.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/pages/enterprises/enterprises.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontOffice/src/app/services/enterprise.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontOffice/src/app/services/enterprise.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +127,7 @@
       <recent name="com.tech.gameService.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CategoryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.EnterpriseServiceApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tech.apiGateway.ApiGatewayApplication" />
       <module name="ApiGateway" />

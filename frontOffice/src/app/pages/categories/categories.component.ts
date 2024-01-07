@@ -17,7 +17,6 @@ import {HelperService} from "../../services/helper.service";
 export class CategoriesComponent implements OnInit{
 
   public categories! : any;
-  private readonly notifier: NotifierService;
   public refreshing! : boolean;
 
   constructor(private categoryService: CategoryService,
@@ -25,7 +24,6 @@ export class CategoriesComponent implements OnInit{
               private notificationService: NotificationService,
               private helperService: HelperService,
               private notifierService: NotifierService) {
-    this.notifier = notifierService;
   }
 
   ngOnInit() {
@@ -45,7 +43,6 @@ export class CategoriesComponent implements OnInit{
       (errorResponse: HttpErrorResponse) => {
         this.helperService.sendNotification(NotificationType.ERROR, errorResponse.error.message);
         this.refreshing = false;
-        console.log(errorResponse);
       },
       () => {
         console.log('Completed');

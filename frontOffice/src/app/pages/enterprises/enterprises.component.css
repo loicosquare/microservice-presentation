@@ -1,0 +1,91 @@
+/* entreprises.component.css */
+
+/* Partie des cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card-body i:hover {
+  color: rgb(221, 0, 49); /* Couleur des icônes au survol */
+}
+
+.card-title {
+  background-color: #1976d2;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.card-title:hover {
+  transform: scale(1.1); /* Redimensionner légèrement au survol */
+  transition: transform 0.3s ease; /* Ajouter une transition fluide */
+}
+
+/* Partie des cards */
+
+/* Partie du spinner */
+
+/* Loader Spinner*/
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #3498db; /* Couleur du spinner */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* Animation */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* Loader Spinner*/
+
+/* Loader Dot*/
+.loader-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.loader-dots div {
+  width: 10px;
+  height: 10px;
+  background-color: #3498db; /* Couleur des points */
+  border-radius: 50%;
+  margin: 0 5px;
+  animation: dot 1.5s ease-in-out infinite; /* Animation */
+}
+
+@keyframes dot {
+  0%, 20% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  80%, 100% { transform: translateY(0); }
+}
+/* Loader Dot*/
+
+/* Partie du spinner */
+
+/*Partie du modal */
+.modal {
+  margin-top: 20%;
+  //display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+/*Partie du modal */

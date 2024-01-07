@@ -25,7 +25,7 @@ import {NotificationService} from "./services/notification.service";
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NotificationModule
+    NotificationModule,
   ],
   providers: [NotificationService],
   bootstrap: [AppComponent]

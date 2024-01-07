@@ -1,5 +1,5 @@
 <!-- category.component.html -->
-<div class="card-container">
+<div class="card-container" *ngIf="!refreshing">
   <div class="card" *ngFor="let category of categories; let i = index">
     <img [src]="category?.imageUrl ? category.imageUrl : 'https://robohash.org/' + i" alt="{{ category?.categoryName }}" class="card-img-top" />
     <div class="card-body">
@@ -11,4 +11,4 @@
     </div>
   </div>
 </div>
-
+<div class="loading-bar" *ngIf="refreshing"></div>
