@@ -17,7 +17,6 @@ export class EnterprisesComponent implements OnInit {
   showModal: boolean = false;
 
   constructor(private helperService: HelperService,
-              private notifierService: NotifierService,
               private enterprisesService: EnterpriseService) {
   }
 
@@ -41,7 +40,6 @@ export class EnterprisesComponent implements OnInit {
         }
       },
       (error : HttpErrorResponse) => {
-        console.log(error);
         this.refreshing = false;
       }
     );

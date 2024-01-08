@@ -1,0 +1,139 @@
+/* Partie pour les games */
+/* Ajoutez ces styles CSS dans votre fichier CSS ou balise style */
+.card {
+  margin-bottom: 20px; /* Espace entre les cartes */
+}
+
+.game-image {
+  max-width: 100px; /* Taille maximale de l'image */
+  height: auto;
+  border-radius: 8px; /* Coins arrondis de l'image */
+}
+
+.custom-title {
+  font-weight: bold; /* Mettre en gras */
+  transition: color 0.3s; /* Transition de couleur pour l'effet de survol */
+}
+
+.custom-title:hover {
+  color: #3498db;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Partie pour les games */
+
+/* Loader Dot*/
+.loader-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.loader-dots div {
+  width: 10px;
+  height: 10px;
+  background-color: #3498db; /* Couleur des points */
+  border-radius: 50%;
+  margin: 0 5px;
+  animation: dot 1.5s ease-in-out infinite; /* Animation */
+}
+
+@keyframes dot {
+  0%, 20% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  80%, 100% { transform: translateY(0); }
+}
+/* Loader Dot*/
+
+/* Card bouton pour les games*/
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.spacer {
+  flex: 1;
+}
+
+.card svg.material-icons path {
+  fill: #888;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.card-container .card:not(.highlight-card) {
+  cursor: pointer;
+}
+
+.card-container .card:not(.highlight-card):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+.card-container .card:not(.highlight-card):hover .material-icons path {
+  fill: rgb(105, 103, 103);
+}
+
+.card {
+  all: unset;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  height: 40px;
+  width: 200px;
+  margin: 0 8px 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}
+
+.card-container .card:not(:last-child) {
+  margin-right: 0;
+}
+
+.card.card-small {
+  height: 16px;
+  width: 168px;
+}
+
+.card-container .card:not(.highlight-card) {
+  cursor: pointer;
+}
+
+.card-container .card:not(.highlight-card):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+.card-container .card:not(.highlight-card):hover .material-icons path {
+  fill: rgb(105, 103, 103);
+}
+
+.card.card.highlight-card span {
+  margin-left: 60px;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #125699;
+}
+/* Card bouton pour les games*/
