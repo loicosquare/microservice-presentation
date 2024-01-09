@@ -1,0 +1,38 @@
+<div class="card-container" *ngIf="enterprises">
+  <div class="card" *ngFor="let entreprise of enterprises">
+    <div class="card-body">
+      <h5 class="card-title">{{ entreprise.name }}</h5>
+      <p class="card-text"><strong>Location:</strong> {{ entreprise.location }}</p>
+      <p class="card-text"><strong>About:</strong> {{ entreprise.about }}</p>
+      <img [src]="entreprise.image || 'https://via.placeholder.com/300x200'" alt="{{ entreprise.name }}" class="card-img-top" />
+      <div class="text-center mt-4">
+        <i class="fas fa-eye" title="Voir les détails" (click)="showDetails(entreprise)"></i>
+        <i class="fas fa-star" title="Voir les ratings" (click)="showRatings(entreprise)"></i>
+        <i class="fas fa-gamepad" title="Voir les jeux" (click)="showGames(entreprise)"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HTML du modal -->
+<div class="modal" tabindex="-1" role="dialog" [ngClass]="{ 'show': showModal, 'd-block': showModal }">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Ratings de l'entreprise</h5>
+        <button type="button" class="close" aria-label="Close" data-dismiss="modal" (click)="hideModal()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Contenu du modal pour les ratings de l'entreprise -->
+        <!-- ... -->
+      </div>
+      <div class="modal-footer">
+        <!-- Boutons d'action -->
+        <button type="button" class="btn btn-outline-secondary btn-sm" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-outline-danger btn-sm">Supprimer</button>
+      </div>
+    </div>
+  </div>
+</div>

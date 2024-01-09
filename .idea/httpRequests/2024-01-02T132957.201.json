@@ -1,0 +1,23 @@
+{
+  "timeStamp": "01-02-2024 12:29:57",
+  "httpStatusCode": 201,
+  "httpStatus": "CREATED",
+  "reason": "Created",
+  "message": "The game is added successfully.",
+  "games": [
+    {
+      "gameId": null,
+      "title": "Adventure Game 1",
+      "description": "Description for Adventure Game 1",
+      "releaseDate": "2024-01-02",
+      "platform": "PC",
+      "developer": "Techs Developers",
+      "publisher": "Techs Publishers",
+      "price": 39.99,
+      "gameLength": 40,
+      "imageUrl": "https://robohash.org/Adventure Game 1",
+      "enterpriseId": "299223f1-5a76-4e19-ab12-3367e25d580d",
+      "categoryId": "d66e63ea-f288-4ab1-9a57-0faae191bd98"
+    }
+  ]
+}

@@ -11,7 +11,8 @@ public class Rating {
     private String ratingId;
     private String userId;
     private String EnterpriseId;
+    private String gameId;
     private  int rating;
     private  String feedback;
-    private Enterprise enterprise;
+    //private Enterprise enterprise;
 }

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-01-02T10:52:41.460+00:00",
+  "path": "/categories",
+  "status": 500,
+  "error": "Internal Server Error",
+  "requestId": "c641f875-40"
+}

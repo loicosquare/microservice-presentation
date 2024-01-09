@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  # Service Spring Boot
+  spring-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"  # Port exposé pour l'application Spring Boot
+    networks:
+      - rating-service-network
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb://mongodb:27017/rating-service
+    depends_on:
+      - mongodb  # Dépendance du service MongoDB
+
+  # Service MongoDB
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"  # Port MongoDB exposé
+    volumes:
+      - mongodb_data:/data/db  # Stockage persistant des données
+    networks:
+      - rating-service-network
+
+  svc-registry:
+    image: svc-registry
+    ports:
+      - "8762:8761"
+    networks:
+      - rating-service-network
+
+volumes:
+  mongodb_data:  # Volume pour stocker les données MongoDB
+
+networks:
+    rating-service-network:
+        driver: bridge

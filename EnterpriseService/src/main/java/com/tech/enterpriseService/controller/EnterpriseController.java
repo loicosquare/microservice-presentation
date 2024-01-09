@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin("*")
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/enterprises")
@@ -22,7 +23,6 @@ public class EnterpriseController {
     public ResponseEntity<Enterprise> createEnterprise(@RequestBody Enterprise enterprise) {
         return ResponseEntity.status(HttpStatus.CREATED).body(enterpriseService.create(enterprise));
     }
-
 
     //get single
     @GetMapping("/{enterpriseId}")

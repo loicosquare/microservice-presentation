@@ -1,8 +1,8 @@
 package com.tech.gameService.services.impl;
 
-import com.tech.ServiceRegistry.common.entities.HttpResponse;
-import com.tech.ServiceRegistry.common.exception.game.GameExistException;
-import com.tech.ServiceRegistry.common.exception.game.GameNotFoundException;
+import com.tech.gameService.common.entities.HttpResponse;
+import com.tech.gameService.common.exception.game.GameExistException;
+import com.tech.gameService.common.exception.game.GameNotFoundException;
 import com.tech.gameService.entities.Game;
 import com.tech.gameService.externalEntities.Rating;
 import com.tech.gameService.repository.GameRepository;
@@ -10,16 +10,18 @@ import com.tech.gameService.services.GameService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.LocalDate;
-import java.util.Collections;
-import java.util.Date;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
+import static com.tech.gameService.common.Constant.ConstantUrl.TEMP_IMAGE_BASE_URL;
 import static java.util.Collections.singleton;
 import static org.springframework.http.HttpStatus.CREATED;
 
@@ -38,9 +40,10 @@ public class GameServiceImpl implements GameService {
      * @return Le jeu créé.
      */
     @Override
-    public HttpResponse<Game> createGame(Game game) throws GameExistException {
+    public HttpResponse<Game> createGame(Game game) throws GameExistException, MalformedURLException {
         logger.info("Saving new game to the database");
         game.setReleaseDate(LocalDate.now());
+        game.setImageUrl(String.valueOf(new URL(TEMP_IMAGE_BASE_URL + game.getTitle().trim())));
 
         try {
             return HttpResponse.<Game>builder()
@@ -70,14 +73,14 @@ public class GameServiceImpl implements GameService {
 
         try {
             Optional<Game> optionalGame;
-            optionalGame = Optional.ofNullable(gameRepository.findById(game.getGameId())
-                    .orElseThrow(() -> new GameNotFoundException("The game was not found on the server")));
+            optionalGame = Optional.of(gameRepository.findById(game.getGameId()))
+                    .orElseThrow(() -> new GameNotFoundException("The game was not found on the server"));
 
             if (optionalGame.isPresent()) {
                 logger.info("game found on the database");
                 Game updatedGame;
                 updatedGame = Game.builder()
-                        .gameId(game.getGameId())
+                        //.gameId(game.getGameId())
                         .title(game.getTitle())
                         .description(game.getDescription())
                         .releaseDate(game.getReleaseDate())
@@ -182,14 +185,31 @@ public class GameServiceImpl implements GameService {
         List<Game> games;
         games = gameRepository.findAll().stream().toList();
 
+        //Rating[] foundedRating = restTemplate.getForObject("http://RATING-SERVICE/ratings/" , Rating[].class);
+
+        //TODO : Faire une méthode pour récupérer les Ratings en fonction de l'ID du jeu. (Regarder la différence entre getForObject et exchange).
+        ResponseEntity<Rating[]> response = restTemplate.exchange(
+                "http://RATING-SERVICE/ratings/",
+                HttpMethod.GET,
+                null,
+                Rating[].class
+        );
+        Rating[] ratings = response.getBody();
+
         try {
-            games.forEach(game -> {
-                Rating[] foundedRating = restTemplate.getForObject("http://RATING-SERVICE/ratings/" + game.getGameId() , Rating[].class);
-
-                if (foundedRating != null && foundedRating.length > 0){
-
+            if (ratings != null) {
+                logger.info("All the Ratings are fetched from the database");
+                for (Game game : games) {
+                    for (Rating rating : ratings) {
+                        if (rating.getGameId().equals(game.getGameId())) {
+                            //game.setRatings(Collections.singletonList(rating));
+                            game.setRatings(List.of(rating));
+                        }
+                    }
                 }
-            });
+            }
+
+        logger.info("All the Games are fetched from the database");
 
             return HttpResponse.<Game>builder()
                     .games(games)

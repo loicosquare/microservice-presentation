@@ -1,0 +1,14 @@
+<!-- category.component.html -->
+<div class="card-container" *ngIf="!refreshing">
+  <div class="card" *ngFor="let category of categories; let i = index">
+    <img [src]="category?.imageUrl ? category.imageUrl : 'https://robohash.org/' + i" alt="{{ category?.categoryName }}" class="card-img-top" />
+    <div class="card-body">
+      <h5 class="card-title">{{ category?.categoryName }}</h5>
+      <p class="card-text">{{ category?.categoryDescription || 'No description available' }}</p>
+      <a href="#" class="btn btn-sm btn-primary">
+        Voir les détails <i class="fas fa-chevron-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="loading-bar" *ngIf="refreshing"></div>
