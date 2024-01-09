@@ -5,7 +5,7 @@ FROM amazoncorretto:17-alpine-jdk
 WORKDIR /app
 
 # Copier le JAR de l'application dans le conteneur
-COPY target/svc-rating.jar /app
+COPY target/svc-registry.jar /app
 
 # Commande pour exécuter l'application Spring Boot
-CMD ["java", "-jar", "svc-rating.jar"]
+CMD ["java", "-jar", "svc-registry.jar"]
