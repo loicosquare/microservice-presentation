@@ -1,7 +1,0 @@
-{
-  "timeStamp": "01-02-2024 11:22:41",
-  "httpStatusCode": 400,
-  "httpStatus": "BAD_REQUEST",
-  "reason": "BAD REQUEST",
-  "message": "Erreur lors de la récupération de la catégorie par l'ID {}.c7084015-eff3-41a8-a359-cb4fa86f92ff"
-}

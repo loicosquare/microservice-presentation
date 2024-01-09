@@ -1,7 +1,0 @@
-{
-  "timeStamp": "01-02-2024 11:49:52",
-  "httpStatusCode": 405,
-  "httpStatus": "METHOD_NOT_ALLOWED",
-  "reason": "METHOD NOT ALLOWED",
-  "message": "This request method is not allowed on this endpoint. Please send a 'POST' request"
-}
