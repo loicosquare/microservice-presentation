@@ -1,7 +1,0 @@
-{
-  "timeStamp": "01-02-2024 11:06:47",
-  "httpStatusCode": 400,
-  "httpStatus": "BAD_REQUEST",
-  "reason": "BAD REQUEST",
-  "message": "Erreur lors de la création de la catégorie {}.Cannot autogenerate id of type java.util.UUID for entity of type com.tech.categoryService.entities.Category!"
-}
