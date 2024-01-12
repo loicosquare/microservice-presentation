@@ -8,5 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/loicosquare/microservice-tech-config-server
+          uri: ${SPRING_CLOUD_CONFIG_SERVER_GIT_URI:https://github.com/loicosquare/microservice-tech-config-server}
           clone-on-start: true

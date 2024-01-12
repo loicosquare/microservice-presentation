@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="8c748e6c-0a4e-4e15-ac69-2339023ea4a4" />
   </component>

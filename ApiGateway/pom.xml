@@ -78,6 +78,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>svc-apigateway</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
