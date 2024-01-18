@@ -5,7 +5,7 @@ spring:
   application:
     name: USER-SERVICE
   datasource:
-    url: jdbc:mysql://localhost:3306/user-service
+    url: jdbc:mysql://${BD_HOST:localhost}:3306/user-service # This line use the environment variable BD_HOST to get the host of the database otherwise it will use localhost
     username: root
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,7 +17,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
   config:
-    import: optional:configserver:http://localhost:8085
+    import: configserver:http://localhost:8085
 #  profiles:
 #    active: dev
 
@@ -28,8 +28,8 @@ spring:
 #  client:
 #    fetch-registry: true
 #    register-with-eureka: true
-#    userService-url:
-#      defaultzone: http://localhost:8761/eureka
+#    service-url:
+#      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka} # This line use the environment variable EUREKA_SERVER_ADDRESS to get the host of the eureka server otherwise it will use localhost
 
 #Juste pour exposer les différents endpoints de notre application avec Actuator => This will allow to se the different states of circuit breakers (OPEN CLOSED HALF-OPEN).
 management:

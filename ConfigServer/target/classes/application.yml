@@ -10,3 +10,13 @@ spring:
         git:
           uri: ${SPRING_CLOUD_CONFIG_SERVER_GIT_URI:https://github.com/loicosquare/microservice-tech-config-server}
           clone-on-start: true
+
+#Pour quoi on a besoin de cette configuration? pour que le config server puisse se connecter à l'eureka server (Service Registry).
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    userService-url:
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka} # This line use the environment variable EUREKA_SERVER_ADDRESS to get the host of the eureka server otherwise it will use localhost

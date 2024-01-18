@@ -9,7 +9,7 @@ spring:
   application:
     name: RATING-SERVICE
   config:
-    import: optional:configserver:http://localhost:8085/
+    import: configserver:http://localhost:8085
 
 
 #Etape 4 de notre fichier contenant le guide des étapes à suivre pour la mise en place de notre microservice
@@ -20,4 +20,4 @@ spring:
 #    fetch-registry: true
 #    register-with-eureka: true
 #    userService-url:
-#      defaultzone: http://localhost:8761/eureka
+#      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka} # This line use the environment variable EUREKA_SERVER_ADDRESS to get the host of the eureka server otherwise it will use localhost

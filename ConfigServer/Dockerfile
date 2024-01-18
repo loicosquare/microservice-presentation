@@ -43,7 +43,7 @@ EXPOSE 8085
 #On peut vérifier que le conteneur est bien lancé avec la commande suivante:
     #docker ps
 
-#On peut vérifier que l'application est bien lancée avec la commande suivante:
+#On peut vérifier que l'application (java) est bien lancée avec la commande suivante:
     #docker logs <id du conteneur>
 
 # Une fois que l'application est lancée on aura l'érreur suivante : Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connection refused
@@ -51,8 +51,8 @@ EXPOSE 8085
         #et passer l'adresse du serveur Eureka comme variable d'environnement.
 
     # Pour cela on va utiliser la commande suivante:
-        # docker run -d -p8085:8085 -e SPRING_CLOUD_CONFIG_SERVER_GIT_URI=https://github.com/loicosquare/microservice-tech-config-server --name svc-configserver <id_image_docker>
-            # SPRING_CLOUD_CONFIG_SERVER_GIT_URI est la variable d'environnement qui contient l'adresse du serveur Eureka.
+        # docker run -d -p8085:8085 -e EUREKA_SERVER_ADDRESS=http://host.docker.internal:8761/eureka --name svc-configserver <id_image_docker>
+            # EUREKA_SERVER_ADDRESS est la variable d'environnement qui contient l'adresse du serveur Eureka (passée en paramètre dans le .yml de config server).
 
     # On peut vérifier que l'application est bien lancée (Et enregistrée au service registry) avec la commande suivante:
             #docker logs <id du conteneur>

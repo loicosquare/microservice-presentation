@@ -43,4 +43,4 @@ spring:
 #    fetch-registry: true
 #    register-with-eureka: true
 #    service-url:
-#      defaultzone: http://localhost:8761/eureka
+#      defaultzone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}

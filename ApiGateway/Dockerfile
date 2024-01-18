@@ -43,4 +43,4 @@ EXPOSE 8084
         #et passer l'adresse du serveur Eureka comme variable d'environnement.
 
     # Pour cela on va utiliser la commande suivante:
-        # docker run -d -p8084:8084 -e EUREKA_SERVER_ADDRESS=http://host.docker.internal:8761/eureka --name svc-apigateway <image-id>
+        # docker run -d -p8084:8084 -e CONFIG_SERVER_URL=host.docker.internal -e EUREKA_SERVER_ADDRESS=http://host.docker.internal:8761/eureka --name svc-apigateway <image-id>
