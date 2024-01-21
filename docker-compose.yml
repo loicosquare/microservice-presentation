@@ -2,28 +2,37 @@ version: '3'
 
 services:
   serviceregistry:
-    image: 'svc-registry:1.0.0'
+#    image: 'svc-registry:1.0.0'
+    build:
+      context: ./ServiceRegistry
+      dockerfile: Dockerfile
     container_name: svc-registry
     ports:
       - '8761:8761'
 
   configserver:
-    image: 'svc-configserver:1.0.0'
+    #image: 'svc-configserver:1.0.0'
+    build:
+      context: ./ConfigServer
+      dockerfile: Dockerfile
     container_name: svc-configserver
     ports:
       - '8085:8085'
     environment:
       - EUREKA_SERVER_ADDRESS=http://serviceregistry:8761/eureka
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://configserver:8085/actuator/health"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
+    #healthcheck:
+#      test: ["CMD", "curl", "-f", "http://configserver:8085/actuator/health"]
+#      interval: 10s
+#      timeout: 5s
+#      retries: 5
     depends_on:
       - serviceregistry
 
   apigateway:
-    image: 'svc-apigateway:1.0.0'
+    image: 'loicsanou/svc-apigateway:1.0.0'
+#    build:
+#      context: ./ApiGateway
+#      dockerfile: Dockerfile
     container_name: svc-apigateway
     ports:
       - '8084:8084'
@@ -31,8 +40,8 @@ services:
       - EUREKA_SERVER_ADDRESS=http://serviceregistry:8761/eureka
       - CONFIG_SERVER_URL=configserver
     depends_on:
-      configserver:
-        condition: service_healthy
+      - configserver
+        #condition: service_healthy
 
 #  userservice:
 #    image: 'svc-userservice:1.0.0'

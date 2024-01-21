@@ -13,10 +13,10 @@ spring:
 
 #Pour quoi on a besoin de cette configuration? pour que le config server puisse se connecter à l'eureka server (Service Registry).
 eureka:
-  instance:
-    prefer-ip-address: true
   client:
     fetch-registry: true
     register-with-eureka: true
-    userService-url:
-      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka} # This line use the environment variable EUREKA_SERVER_ADDRESS to get the host of the eureka server otherwise it will use localhost
+    service-url:
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://172.22.144.1:8761/eureka} # This line use the environment variable EUREKA_SERVER_ADDRESS to get the host of the eureka server otherwise it will use localhost
+  instance:
+    prefer-ip-address: true
