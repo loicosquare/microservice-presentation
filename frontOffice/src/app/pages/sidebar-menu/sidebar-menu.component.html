@@ -1,34 +1,13 @@
 <div class="sidebar">
   <ul class="list-group">
-    <li class="list-group-item d-flex align-items-center" routerLink="y" routerLinkActive="active">
-      <i class="fas fa-bars me-2 text-white"></i>
-      <a class="nav-link">Menu</a>
+    <li *ngFor="let menuItem of menuItems" class="list-group-item d-flex flex-column align-items-center" [routerLink]="menuItem.routerLink" [routerLinkActive]="menuItem.routerLinkActive">
+      <i [class]="menuItem.iconClass + ' me-2 text-white'"></i>
+      <a class="nav-link">{{ menuItem.text }}</a>
     </li>
-    <hr>
-    <li class="list-group-item d-flex align-items-center" routerLink="enterprises" routerLinkActive="active">
-      <i class="fas fa-building me-2 text-white"></i>
-      <a class="nav-link">Enterprises</a>
-    </li>
-    <hr>
-    <li class="list-group-item d-flex align-items-center" routerLink="games" routerLinkActive="active">
-      <i class="fas fa-gamepad me-2 text-white"></i>
-      <a class="nav-link">Games</a>
-    </li>
-    <hr>
-    <li class="list-group-item d-flex align-items-center" routerLink="categories" routerLinkActive="active">
-      <i class="fas fa-list-alt me-2 text-white"></i>
-      <a class="nav-link">Categories</a>
-    </li>
-    <hr>
-    <li class="list-group-item d-flex align-items-center" routerLink="users" routerLinkActive="active">
-      <i class="fas fa-users me-2 text-white"></i>
-      <a class="nav-link">Users</a>
-    </li>
-    <hr>
   </ul>
+
 </div>
 <div class="main-content">
-  <!-- Le contenu principal sera affiché ici -->
   <router-outlet></router-outlet>
   <notifier-container></notifier-container>
 </div>

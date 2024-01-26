@@ -1,0 +1,31 @@
+<div class="card-container" *ngIf="enterprise">
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-6">
+          <img [src]="enterprise.image" alt="{{ enterprise.name }}" class="card-img-top" />
+        </div>
+        <div class="col-6">
+          <form class="details-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-control" disabled [value]="enterprise.name">
+            </div>
+            <div class="mb-3">
+              <label for="location" class="form-label">Location</label>
+              <input type="text" id="location" class="form-control" disabled [value]="enterprise.location">
+            </div>
+            <div class="mb-3">
+              <label for="about" class="form-label">About</label>
+              <textarea id="about" class="form-control" disabled>{{ enterprise.about }}</textarea>
+            </div>
+            <div class="text-end mt-4">
+              <button type="button" class="btn btn-outline-danger me-2" (click)="deleteEnterprise(enterprise)">Delete</button>
+              <button type="button" class="btn btn-outline-primary" (click)="createEnterprise()">Update</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

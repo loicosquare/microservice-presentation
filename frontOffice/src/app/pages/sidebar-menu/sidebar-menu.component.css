@@ -1,12 +1,7 @@
 .sidebar {
-  /*width: 250px;
-  margin-top: 59px;*/
-  /*height: 100%;
-  padding-top: 20px;*/
   position: fixed;
   top: 0;
   left: 0;
-  /*background-color: #333;*/
   background-color: #0088ce;
   color: #fff;
 
@@ -17,18 +12,7 @@
   z-index: 1060;
 }
 
-.list-group-item {
-  background-color: #0088ce;
-  border: none;
-}
-
-hr{
-  /*margin: 0 auto;*/
-  border-bottom: 1px solid #fff;
-}
-
 .list-group-item:hover {
-  /*background-color: #555;*/
   background-color: #0074af;
   cursor: pointer;
 }
@@ -40,9 +24,16 @@ hr{
 .main-content {
   margin-left: 250px;
   padding: 20px;
+  margin-right: 125px;
 }
 
 .list-group-item.active {
-  /*background-color: #1976d2;*/
-  background-color: #0074af;
+  border-right: none;
+  border-left: none;
+}
+
+.list-group-item {
+  background-color: #0088ce;
+  border-right: none;
+  border-left: none;
 }
