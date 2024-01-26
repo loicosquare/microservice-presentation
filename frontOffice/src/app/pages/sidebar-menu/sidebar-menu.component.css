@@ -24,10 +24,11 @@
 .main-content {
   margin-left: 250px;
   padding: 20px;
-  margin-right: 125px;
+  margin-right: 100px;
 }
 
 .list-group-item.active {
+  background-color: #0074af;
   border-right: none;
   border-left: none;
 }
