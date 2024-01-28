@@ -18,4 +18,11 @@ export class EnterpriseService {
       tap(console.log),
       catchError(this.helperService.handleError)
     );
+
+  enterprise$ = (enterpriseId: number) => <Observable<CustomHttpResponse>>this.http.get<CustomHttpResponse>
+  (`${this.server}/enterprises/${enterpriseId}`)
+    .pipe(
+      tap(console.log),
+      catchError(this.helperService.handleError)
+    );
 }

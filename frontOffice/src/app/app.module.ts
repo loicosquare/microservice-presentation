@@ -11,6 +11,8 @@ import { GamesComponent } from './pages/games/games.component';
 import {HttpClientModule} from "@angular/common/http";
 import {NotificationModule} from "./notification.module";
 import {NotificationService} from "./services/notification.service";
+import {EnterpriseDetailsComponent} from "./pages/enterprise-details/enterprise-details.component";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -19,13 +21,15 @@ import {NotificationService} from "./services/notification.service";
     CategoriesComponent,
     UsersComponent,
     EnterprisesComponent,
-    GamesComponent
+    GamesComponent,
+    EnterpriseDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     NotificationModule,
+    ReactiveFormsModule
   ],
   providers: [NotificationService],
   bootstrap: [AppComponent]

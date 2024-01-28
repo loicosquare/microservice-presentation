@@ -5,6 +5,7 @@ import {UsersComponent} from "./pages/users/users.component";
 import {CategoriesComponent} from "./pages/categories/categories.component";
 import {GamesComponent} from "./pages/games/games.component";
 import {EnterprisesComponent} from "./pages/enterprises/enterprises.component";
+import {EnterpriseDetailsComponent} from "./pages/enterprise-details/enterprise-details.component";
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path:'enterprises',
     component:EnterprisesComponent
+  },
+  {
+    path:'enterprise-details/:id',
+    component:EnterpriseDetailsComponent
   }
 ];
 
